@@ -1,0 +1,38 @@
+@import '../../vendor/bedrock/bedrock';
+@import (less) '../../vendor/normalize-css/normalize.css';
+
+@import '_shell';
+@import '_typography';
+@import '_kudos';
+@import '_pages';
+@import '_work';
+
+@static-url: '/assets/app/images/';
+@cursive: "Mahalia Regular", "mahalia", "Lucida Handwriting", Georgia, cursive;
+
+@-ms-viewport { width: device-width; }
+@-o-viewport { width: device-width; }
+@viewport { width: device-width; }
+
+.oldskool(@color) {
+	color: @color;
+	position: relative;
+	white-space: nowrap;
+
+	&:after {
+		.size(0, 2px);
+		.h-margin(auto);
+		.transition(all 0.2s ease-out);
+		content: '';
+		position: absolute;
+		bottom: -2px;
+		left: 0;
+		right: 0;
+		background-color: transparent;
+	}
+
+	&:hover:after {
+		background-color: @color;
+		width: 100%;
+	}
+}

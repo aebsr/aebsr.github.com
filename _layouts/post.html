@@ -1,0 +1,30 @@
+---
+layout: base
+body_class: notebook
+---
+
+<article itemscope itemtype="http://schema.org/Article">
+	<header>
+		<time datetime="{{ page.date | date_to_xmlschema }}">
+			{{ page.date | date: "%B %d, %Y" }}
+		</time>
+
+		<h1 itemprop="name">{{ page.title }}</h1>
+	</header>  
+
+	{{ content }}
+
+	<div class="kudos" data-amount="0" data-url="{{ site.url }}{{ page.url }}"></div>
+
+	<hr>
+
+	<footer>
+		<div>
+			{% include author.html %}
+		</div>
+		<div>
+			{% include recent-posts.html %}
+		</div>
+	</footer>
+	
+</article>

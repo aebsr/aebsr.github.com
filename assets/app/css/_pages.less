@@ -1,0 +1,158 @@
+body.about {
+	background-color: #3cc;
+
+	section {
+
+		:nth-child(3n+1) {
+			a:nth-of-type(3n+1) {
+				.oldskool(#111);
+			}
+
+			a:nth-of-type(3n+2) {
+				.oldskool(darken(#be80ff, 30%));
+			}
+
+			a:nth-of-type(3n+3) {
+				.oldskool(#f32e71);
+			}
+		}
+
+
+		:nth-child(3n+2) {
+			a:nth-of-type(3n+1) {
+				.oldskool(#f32e71);
+			}
+
+			a:nth-of-type(3n+2) {
+				.oldskool(#111);
+			}
+
+			a:nth-of-type(3n+3) {
+				.oldskool(darken(#be80ff, 30%));
+			}
+		}
+
+
+		:nth-child(3n+3) {
+			a:nth-of-type(3n+1) {
+				.oldskool(darken(#be80ff, 30%));
+			}
+
+			a:nth-of-type(3n+2) {
+				.oldskool(#f32e71);
+			}
+
+			a:nth-of-type(3n+3) {
+				.oldskool(#111);
+			}
+		}
+	}
+}
+
+
+.home, .notebook {
+	display: table;
+
+	section, article {
+
+		:nth-child(3n+1) {
+			a:nth-of-type(3n+1) {
+				.oldskool(#3cc);
+			}
+
+			a:nth-of-type(3n+2) {
+				.oldskool(#be80ff);
+			}
+
+			a:nth-of-type(3n+3) {
+				.oldskool(#f32e71);
+			}
+		}
+
+
+		:nth-child(3n+2) {
+			a:nth-of-type(3n+1) {
+				.oldskool(#f32e71);
+			}
+
+			a:nth-of-type(3n+2) {
+				.oldskool(#3cc);
+			}
+
+			a:nth-of-type(3n+3) {
+				.oldskool(#be80ff);
+			}
+		}
+
+
+		:nth-child(3n+3) {
+			a:nth-of-type(3n+1) {
+				.oldskool(#be80ff);
+			}
+
+			a:nth-of-type(3n+2) {
+				.oldskool(#f32e71);
+			}
+
+			a:nth-of-type(3n+3) {
+				.oldskool(#3cc);
+			}
+		}
+	}
+}
+
+// Page Base
+body > section {
+	width: 100%;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+// Article Base
+body > article {
+	background: #fcfcfc;
+	color: #111;
+
+	time {
+		color: #ccc;
+	}
+}
+
+article footer {
+	.h-margin(auto);
+	width: 50%;
+	overflow: hidden;
+
+	> div {
+		width: 47.5%;
+		float: left;
+
+		+ div {
+			float: right;
+		}
+	}
+
+	h1, h2, h3, h4, h5, h6, ul, ol, p, time, iframe, hr {
+		width: 100%;
+	}
+
+	+ hr {
+		margin-top: 1em;
+	}
+
+	ul {
+		.unstyle-list();
+
+		.notebook & li:nth-child(3n+1) a:nth-child(1) {
+			.oldskool(#3cc);
+		}
+
+		.notebook & li:nth-child(3n+2) a:nth-child(1) {
+			.oldskool(#be80ff);
+		}
+
+		.notebook & li:nth-child(3n+3) a:nth-child(1) {
+			.oldskool(#f32e71);
+		}
+	}
+}

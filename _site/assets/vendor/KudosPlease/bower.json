@@ -1,0 +1,9 @@
+{
+  "name": "KudosPlease",
+  "version": "0.0.0",
+  "commit": "e6fe0c00a6a1b63dd13f3c6c7b9c081df74af5be",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:TimPietrusky/KudosPlease.git"
+  }
+}

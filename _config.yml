@@ -1,0 +1,29 @@
+auto: true
+server: true
+permalink: /notebook/:title
+
+title: aeb.sr
+description: "Antoine Butler's collection of code, pixels and words."
+
+url: aeb.sr
+rootUrl: http://aeb.sr
+
+include: [".htaccess"]
+exclude: ["less", "coffee", "*.sublime-project", "*.sublime-workspace", "package.json", "node_modules"]
+
+pygments:    true
+markdown:    kramdown
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: true
+
+  coderay:
+    coderay_line_numbers: nil
+    coderay_line_numbers_start: 1
+    coderay_tab_width: 4
+    coderay_bold_every: 10
+    coderay_css: class

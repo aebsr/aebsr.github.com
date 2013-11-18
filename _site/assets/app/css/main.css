@@ -1,0 +1,1585 @@
+/*! ------------------------------------------------
+ *	Bedrock
+ *	https://github.com/aebsr/bedrock
+ *
+ *	Copyright 2012-2013 Antoine Butler
+ *	Licensed WTF Public License
+ *	http://www.wtfpl.net/about/
+ *
+ *	Built by @aebsr
+ * -------------------------------------------------
+ */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+/*! normalize.css v2.1.3 | MIT License | git.io/normalize */
+/* ==========================================================================
+   HTML5 display definitions
+   ========================================================================== */
+/**
+ * Correct `block` display not defined in IE 8/9.
+ */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+/**
+ * Correct `inline-block` display not defined in IE 8/9.
+ */
+audio,
+canvas,
+video {
+  display: inline-block;
+}
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+/**
+ * Address `[hidden]` styling not present in IE 8/9.
+ * Hide the `template` element in IE, Safari, and Firefox < 22.
+ */
+[hidden],
+template {
+  display: none;
+}
+/* ==========================================================================
+   Base
+   ========================================================================== */
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+html {
+  font-family: sans-serif;
+  /* 1 */
+
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+
+}
+/**
+ * Remove default margin.
+ */
+body {
+  margin: 0;
+}
+/* ==========================================================================
+   Links
+   ========================================================================== */
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+a {
+  background: transparent;
+}
+/**
+ * Address `outline` inconsistency between Chrome and other browsers.
+ */
+a:focus {
+  outline: thin dotted;
+}
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
+a:active,
+a:hover {
+  outline: 0;
+}
+/* ==========================================================================
+   Typography
+   ========================================================================== */
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari 5, and Chrome.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+/**
+ * Address styling not present in IE 8/9, Safari 5, and Chrome.
+ */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
+ */
+b,
+strong {
+  font-weight: bold;
+}
+/**
+ * Address styling not present in Safari 5 and Chrome.
+ */
+dfn {
+  font-style: italic;
+}
+/**
+ * Address differences between Firefox and other browsers.
+ */
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+/**
+ * Address styling not present in IE 8/9.
+ */
+mark {
+  background: #ff0;
+  color: #000;
+}
+/**
+ * Correct font family set oddly in Safari 5 and Chrome.
+ */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, serif;
+  font-size: 1em;
+}
+/**
+ * Improve readability of pre-formatted text in all browsers.
+ */
+pre {
+  white-space: pre-wrap;
+}
+/**
+ * Set consistent quote types.
+ */
+q {
+  quotes: "\201C" "\201D" "\2018" "\2019";
+}
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+small {
+  font-size: 80%;
+}
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sup {
+  top: -0.5em;
+}
+sub {
+  bottom: -0.25em;
+}
+/* ==========================================================================
+   Embedded content
+   ========================================================================== */
+/**
+ * Remove border when inside `a` element in IE 8/9.
+ */
+img {
+  border: 0;
+}
+/**
+ * Correct overflow displayed oddly in IE 9.
+ */
+svg:not(:root) {
+  overflow: hidden;
+}
+/* ==========================================================================
+   Figures
+   ========================================================================== */
+/**
+ * Address margin not present in IE 8/9 and Safari 5.
+ */
+figure {
+  margin: 0;
+}
+/* ==========================================================================
+   Forms
+   ========================================================================== */
+/**
+ * Define consistent border, margin, and padding.
+ */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+/**
+ * 1. Correct `color` not being inherited in IE 8/9.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+legend {
+  border: 0;
+  /* 1 */
+
+  padding: 0;
+  /* 2 */
+
+}
+/**
+ * 1. Correct font family not being inherited in all browsers.
+ * 2. Correct font size not being inherited in all browsers.
+ * 3. Address margins set differently in Firefox 4+, Safari 5, and Chrome.
+ */
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+
+  font-size: 100%;
+  /* 2 */
+
+  margin: 0;
+  /* 3 */
+
+}
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+button,
+input {
+  line-height: normal;
+}
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Chrome, Safari 5+, and IE 8+.
+ * Correct `select` style inheritance in Firefox 4+ and Opera.
+ */
+button,
+select {
+  text-transform: none;
+}
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+
+  cursor: pointer;
+  /* 3 */
+
+}
+/**
+ * Re-set default cursor for disabled elements.
+ */
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+/**
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.
+ * 2. Remove excess padding in IE 8/9/10.
+ */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+
+  padding: 0;
+  /* 2 */
+
+}
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari 5 and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari 5 and Chrome
+ *    (include `-moz` to future-proof).
+ */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  /* 2 */
+
+  box-sizing: content-box;
+}
+/**
+ * Remove inner padding and search cancel button in Safari 5 and Chrome
+ * on OS X.
+ */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+/**
+ * 1. Remove default vertical scrollbar in IE 8/9.
+ * 2. Improve readability and alignment in all browsers.
+ */
+textarea {
+  overflow: auto;
+  /* 1 */
+
+  vertical-align: top;
+  /* 2 */
+
+}
+/* ==========================================================================
+   Tables
+   ========================================================================== */
+/**
+ * Remove most spacing between table cells.
+ */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+html {
+  height: 100%;
+  background-color: #000;
+  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyRpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoTWFjaW50b3NoKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpBMjZEMjNEQjNBMTYxMUUzOUM0OEQ5MDM3MzQxNTlEMiIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpBMjZEMjNEQzNBMTYxMUUzOUM0OEQ5MDM3MzQxNTlEMiI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkEyNkQyM0Q5M0ExNjExRTM5QzQ4RDkwMzczNDE1OUQyIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOkEyNkQyM0RBM0ExNjExRTM5QzQ4RDkwMzczNDE1OUQyIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+qlaCiQAAABBJREFUeNpi+P//PwNAgAEACPwC/tuiTRYAAAAASUVORK5CYII=');
+  background-size: cover;
+  background-attachment: fixed;
+}
+body {
+  color: #fff;
+  padding-left: 4em;
+  min-height: 100%;
+  background: #222;
+  position: relative;
+}
+@media (max-width: 40em) {
+  body {
+    padding-left: 0;
+    padding-bottom: 4em;
+  }
+}
+body > section,
+body > article {
+  padding-top: 2em;
+  padding-bottom: 2em;
+  min-height: 100%;
+}
+nav {
+  padding: 1em 0;
+  background: #222;
+  line-height: 4em;
+  margin-left: auto;
+  margin-right: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 4em;
+  text-align: center;
+  z-index: 99;
+}
+nav > a {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+  padding-left: 1em;
+  padding-right: 1em;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  display: inline-block;
+  font-family: "Mahalia Regular", "mahalia", "Lucida Handwriting", Georgia, cursive;
+  color: #fff;
+  position: relative;
+  right: 22px;
+  top: 1em;
+  zoom: 2;
+}
+hgroup {
+  margin-bottom: 30px;
+}
+hgroup h2 {
+  text-transform: lowercase;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+p,
+time,
+iframe,
+hr,
+article > div,
+article > pre,
+#disqus_thread {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+@media (max-width: 40em) {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  ul,
+  ol,
+  p,
+  time,
+  iframe,
+  hr,
+  article > div,
+  article > pre,
+  #disqus_thread {
+    width: 80%;
+  }
+}
+li ol,
+li ul {
+  width: 100%;
+  margin-top: 0;
+  list-style-type: lower-roman;
+}
+article > img,
+section > img {
+  max-width: 100%;
+  margin-bottom: 60px;
+}
+blockquote {
+  overflow: hidden;
+  background: #eee;
+  width: 100%;
+  margin: 0 auto;
+}
+blockquote p {
+  font: 700 30px/1em "museo-sans", arial, sans-serif;
+}
+blockquote cite {
+  font-size: 0.5em;
+}
+blockquote p:first-child:before,
+blockquote p:last-child:after {
+  position: absolute;
+  font-family: georgia;
+  color: #fcfcfc;
+  font-size: 120px;
+}
+blockquote p:first-child:before {
+  content: '\201c';
+  left: -0.75em;
+  top: 0.2em;
+}
+blockquote p:last-child:after {
+  content: '\201d';
+  right: -0.75em;
+  bottom: -2px;
+}
+@media (max-width: 40em) {
+  blockquote {
+    padding-top: 0;
+  }
+  blockquote p {
+    font-size: 15px;
+    line-height: 2em;
+  }
+  blockquote cite {
+    font-size: 0.666666667em;
+    top: 2px;
+  }
+}
+aside {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: 100%;
+  background: #000;
+  margin-top: 60px;
+}
+time {
+  display: block;
+}
+figure {
+  width: 100%;
+  height: 30rem;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+figure .billboard {
+  width: 200%;
+  height: 200%;
+  position: relative;
+  top: -50%;
+  left: -50%;
+}
+figure img {
+  width: auto;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  min-width: 50%;
+  min-height: 50%;
+  margin: auto;
+}
+@media (max-width: 40em) {
+  figure {
+    height: 10rem;
+  }
+  figure .billboard {
+    width: auto;
+    height: auto;
+    position: static;
+  }
+  figure img {
+    width: 100%;
+    height: auto;
+    position: static;
+    min-height: 0;
+  }
+}
+time {
+  color: rgba(255, 255, 255, 0.5);
+}
+img {
+  display: block;
+}
+hr {
+  margin-top: 4em;
+  margin-bottom: 2em;
+  height: 0;
+  border: none;
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+}
+p:first-child:last-child {
+  font-size: 30px;
+  line-height: 1.5;
+  color: #777;
+}
+@media (max-width: 40em) {
+  p:first-child:last-child {
+    font-size: 20px;
+  }
+}
+html {
+  font: 300 15px/2em "museo-sans", arial, sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+p,
+pre,
+address,
+time,
+blockquote,
+cite {
+  position: relative;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  word-spacing: -0.125em;
+  top: 5px;
+}
+h1 + p,
+h2 + p,
+h3 + p,
+h4 + p,
+h5 + p,
+h6 + p {
+  margin-top: 0;
+}
+h1 {
+  font-size: 60px;
+  top: 10px;
+  line-height: 1;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 20px;
+  line-height: 30px;
+  top: 8px;
+}
+h4,
+h5,
+h6 {
+  font-size: 1rem;
+  top: 10px;
+}
+@media (max-width: 40em) {
+  h1 {
+    font-size: 2em;
+    top: 5px;
+  }
+  h3 {
+    font-size: 1em;
+  }
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p:first-child {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+h1:first-child + h2,
+h2:first-child + h3,
+h3:first-child + h4,
+h4:first-child + h5 {
+  font-size: 1em;
+  top: 10px;
+}
+p,
+pre,
+address {
+  font-size: 1rem;
+}
+p,
+ul,
+ol {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  top: 10px;
+}
+h4,
+h5,
+h6,
+b,
+strong,
+caption,
+th,
+thead,
+dt,
+legend {
+  font-weight: 700;
+}
+time {
+  font-style: italic;
+}
+time + * {
+  margin-bottom: 30px;
+}
+blockquote {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+cite {
+  display: block;
+  text-align: right;
+  top: 5px;
+}
+cite:before {
+  content: '\2014 ';
+}
+.meta {
+  font-size: 11px;
+  top: 11px;
+}
+p code,
+li code {
+  white-space: nowrap;
+  background-color: #dedede;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+pre {
+  overflow-x: auto;
+  white-space: pre;
+}
+pre::-webkit-scrollbar {
+  height: 12px;
+  background-color: #34362e;
+  border-radius: 0 0 0.333em 0.333em;
+}
+pre::-webkit-scrollbar-thumb:horizontal {
+  background-color: #6a6d5d;
+  -webkit-border-radius: 0.266666667;
+  -moz-border-radius: 0.266666667;
+  border-radius: 0.266666667;
+}
+.kudos {
+  width: 3em;
+  height: 3em;
+  -webkit-transition: box-shadow 0.225s ease-in-out;
+  -moz-transition: box-shadow 0.225s ease-in-out;
+  -o-transition: box-shadow 0.225s ease-in-out;
+  transition: box-shadow 0.225s ease-in-out;
+  color: #000;
+  position: fixed;
+  bottom: 2em;
+  right: 2em;
+  background: #fff;
+  box-shadow: inset 0 0 0 0.25em #000000, inset 0 0 0 1.25em #ffffff, inset 0 0 0 3em #000000;
+  line-height: 3em;
+  text-align: center;
+  border-radius: 50%;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+.kudos:after {
+  -webkit-transition: font-size 0.45s ease-in;
+  -moz-transition: font-size 0.45s ease-in;
+  -o-transition: font-size 0.45s ease-in;
+  transition: font-size 0.45s ease-in;
+  font-size: 1.75em;
+  line-height: 1.75;
+  color: #fff;
+}
+.kudos.active {
+  -webkit-transition: box-shadow 1.5s linear;
+  -moz-transition: box-shadow 1.5s linear;
+  -o-transition: box-shadow 1.5s linear;
+  transition: box-shadow 1.5s linear;
+  box-shadow: inset 0 0 0 0.25em #000000, inset 0 0 0 #ffffff, inset 0 0 0 0.75em rgba(204, 61, 57, 0.75), inset 0 0 0 3em #cc3d39;
+}
+.kudos.active:before {
+  content: 'Don\'t move!';
+}
+.kudos.finish {
+  -webkit-transition: box-shadow 0.45s linear, -webkit-transform 0.5625s ease-in-out;
+  -moz-transition: box-shadow 0.45s linear, -moz-transform 0.5625s ease-in-out;
+  -o-transition: box-shadow 0.45s linear, -o-transform 0.5625s ease-in-out;
+  transition: box-shadow 0.45s linear, transform 0.5625s ease-in-out;
+  box-shadow: inset 0 0 0 0.25em #f32e71, inset 0 0 0 0.5em #ffffff, inset 0 0 0 0.75em #33cccc, inset 0 0 0 1em #ffffff, inset 0 0 0 0 #ffffff, inset 0 0 0 3em #be80ff;
+}
+.kudos.finish:hover {
+  -webkit-transform: scale(1.25);
+  -moz-transform: scale(1.25);
+  -ms-transform: scale(1.25);
+  -o-transform: scale(1.25);
+  transform: scale(1.25);
+}
+.kudos.finish:after {
+  font-size: 2.25em;
+  line-height: 2.25;
+  color: #fff;
+}
+.kudos:before {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-transform-origin: 50% 0;
+  position: absolute;
+  bottom: 4em;
+  right: 0;
+  left: 0;
+  content: attr(data-amount) " Kudos";
+  width: 6em;
+  text-align: right;
+  line-height: 3em;
+  white-space: nowrap;
+  font-weight: bold;
+}
+body.about {
+  background-color: #3cc;
+}
+body.about section :nth-child(3n+1) a:nth-of-type(3n+1) {
+  color: #111111;
+  position: relative;
+  white-space: nowrap;
+}
+body.about section :nth-child(3n+1) a:nth-of-type(3n+1):after {
+  width: 0;
+  height: 2px;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  right: 0;
+  background-color: transparent;
+}
+body.about section :nth-child(3n+1) a:nth-of-type(3n+1):hover:after {
+  background-color: #111111;
+  width: 100%;
+}
+body.about section :nth-child(3n+1) a:nth-of-type(3n+2) {
+  color: #7000e6;
+  position: relative;
+  white-space: nowrap;
+}
+body.about section :nth-child(3n+1) a:nth-of-type(3n+2):after {
+  width: 0;
+  height: 2px;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  right: 0;
+  background-color: transparent;
+}
+body.about section :nth-child(3n+1) a:nth-of-type(3n+2):hover:after {
+  background-color: #7000e6;
+  width: 100%;
+}
+body.about section :nth-child(3n+1) a:nth-of-type(3n+3) {
+  color: #f32e71;
+  position: relative;
+  white-space: nowrap;
+}
+body.about section :nth-child(3n+1) a:nth-of-type(3n+3):after {
+  width: 0;
+  height: 2px;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  right: 0;
+  background-color: transparent;
+}
+body.about section :nth-child(3n+1) a:nth-of-type(3n+3):hover:after {
+  background-color: #f32e71;
+  width: 100%;
+}
+body.about section :nth-child(3n+2) a:nth-of-type(3n+1) {
+  color: #f32e71;
+  position: relative;
+  white-space: nowrap;
+}
+body.about section :nth-child(3n+2) a:nth-of-type(3n+1):after {
+  width: 0;
+  height: 2px;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  right: 0;
+  background-color: transparent;
+}
+body.about section :nth-child(3n+2) a:nth-of-type(3n+1):hover:after {
+  background-color: #f32e71;
+  width: 100%;
+}
+body.about section :nth-child(3n+2) a:nth-of-type(3n+2) {
+  color: #111111;
+  position: relative;
+  white-space: nowrap;
+}
+body.about section :nth-child(3n+2) a:nth-of-type(3n+2):after {
+  width: 0;
+  height: 2px;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  right: 0;
+  background-color: transparent;
+}
+body.about section :nth-child(3n+2) a:nth-of-type(3n+2):hover:after {
+  background-color: #111111;
+  width: 100%;
+}
+body.about section :nth-child(3n+2) a:nth-of-type(3n+3) {
+  color: #7000e6;
+  position: relative;
+  white-space: nowrap;
+}
+body.about section :nth-child(3n+2) a:nth-of-type(3n+3):after {
+  width: 0;
+  height: 2px;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  right: 0;
+  background-color: transparent;
+}
+body.about section :nth-child(3n+2) a:nth-of-type(3n+3):hover:after {
+  background-color: #7000e6;
+  width: 100%;
+}
+body.about section :nth-child(3n+3) a:nth-of-type(3n+1) {
+  color: #7000e6;
+  position: relative;
+  white-space: nowrap;
+}
+body.about section :nth-child(3n+3) a:nth-of-type(3n+1):after {
+  width: 0;
+  height: 2px;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  right: 0;
+  background-color: transparent;
+}
+body.about section :nth-child(3n+3) a:nth-of-type(3n+1):hover:after {
+  background-color: #7000e6;
+  width: 100%;
+}
+body.about section :nth-child(3n+3) a:nth-of-type(3n+2) {
+  color: #f32e71;
+  position: relative;
+  white-space: nowrap;
+}
+body.about section :nth-child(3n+3) a:nth-of-type(3n+2):after {
+  width: 0;
+  height: 2px;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  right: 0;
+  background-color: transparent;
+}
+body.about section :nth-child(3n+3) a:nth-of-type(3n+2):hover:after {
+  background-color: #f32e71;
+  width: 100%;
+}
+body.about section :nth-child(3n+3) a:nth-of-type(3n+3) {
+  color: #111111;
+  position: relative;
+  white-space: nowrap;
+}
+body.about section :nth-child(3n+3) a:nth-of-type(3n+3):after {
+  width: 0;
+  height: 2px;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  right: 0;
+  background-color: transparent;
+}
+body.about section :nth-child(3n+3) a:nth-of-type(3n+3):hover:after {
+  background-color: #111111;
+  width: 100%;
+}
+.home,
+.notebook {
+  display: table;
+}
+.home section :nth-child(3n+1) a:nth-of-type(3n+1),
+.notebook section :nth-child(3n+1) a:nth-of-type(3n+1),
+.home article :nth-child(3n+1) a:nth-of-type(3n+1),
+.notebook article :nth-child(3n+1) a:nth-of-type(3n+1) {
+  color: #33cccc;
+  position: relative;
+  white-space: nowrap;
+}
+.home section :nth-child(3n+1) a:nth-of-type(3n+1):after,
+.notebook section :nth-child(3n+1) a:nth-of-type(3n+1):after,
+.home article :nth-child(3n+1) a:nth-of-type(3n+1):after,
+.notebook article :nth-child(3n+1) a:nth-of-type(3n+1):after {
+  width: 0;
+  height: 2px;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  right: 0;
+  background-color: transparent;
+}
+.home section :nth-child(3n+1) a:nth-of-type(3n+1):hover:after,
+.notebook section :nth-child(3n+1) a:nth-of-type(3n+1):hover:after,
+.home article :nth-child(3n+1) a:nth-of-type(3n+1):hover:after,
+.notebook article :nth-child(3n+1) a:nth-of-type(3n+1):hover:after {
+  background-color: #33cccc;
+  width: 100%;
+}
+.home section :nth-child(3n+1) a:nth-of-type(3n+2),
+.notebook section :nth-child(3n+1) a:nth-of-type(3n+2),
+.home article :nth-child(3n+1) a:nth-of-type(3n+2),
+.notebook article :nth-child(3n+1) a:nth-of-type(3n+2) {
+  color: #be80ff;
+  position: relative;
+  white-space: nowrap;
+}
+.home section :nth-child(3n+1) a:nth-of-type(3n+2):after,
+.notebook section :nth-child(3n+1) a:nth-of-type(3n+2):after,
+.home article :nth-child(3n+1) a:nth-of-type(3n+2):after,
+.notebook article :nth-child(3n+1) a:nth-of-type(3n+2):after {
+  width: 0;
+  height: 2px;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  right: 0;
+  background-color: transparent;
+}
+.home section :nth-child(3n+1) a:nth-of-type(3n+2):hover:after,
+.notebook section :nth-child(3n+1) a:nth-of-type(3n+2):hover:after,
+.home article :nth-child(3n+1) a:nth-of-type(3n+2):hover:after,
+.notebook article :nth-child(3n+1) a:nth-of-type(3n+2):hover:after {
+  background-color: #be80ff;
+  width: 100%;
+}
+.home section :nth-child(3n+1) a:nth-of-type(3n+3),
+.notebook section :nth-child(3n+1) a:nth-of-type(3n+3),
+.home article :nth-child(3n+1) a:nth-of-type(3n+3),
+.notebook article :nth-child(3n+1) a:nth-of-type(3n+3) {
+  color: #f32e71;
+  position: relative;
+  white-space: nowrap;
+}
+.home section :nth-child(3n+1) a:nth-of-type(3n+3):after,
+.notebook section :nth-child(3n+1) a:nth-of-type(3n+3):after,
+.home article :nth-child(3n+1) a:nth-of-type(3n+3):after,
+.notebook article :nth-child(3n+1) a:nth-of-type(3n+3):after {
+  width: 0;
+  height: 2px;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  right: 0;
+  background-color: transparent;
+}
+.home section :nth-child(3n+1) a:nth-of-type(3n+3):hover:after,
+.notebook section :nth-child(3n+1) a:nth-of-type(3n+3):hover:after,
+.home article :nth-child(3n+1) a:nth-of-type(3n+3):hover:after,
+.notebook article :nth-child(3n+1) a:nth-of-type(3n+3):hover:after {
+  background-color: #f32e71;
+  width: 100%;
+}
+.home section :nth-child(3n+2) a:nth-of-type(3n+1),
+.notebook section :nth-child(3n+2) a:nth-of-type(3n+1),
+.home article :nth-child(3n+2) a:nth-of-type(3n+1),
+.notebook article :nth-child(3n+2) a:nth-of-type(3n+1) {
+  color: #f32e71;
+  position: relative;
+  white-space: nowrap;
+}
+.home section :nth-child(3n+2) a:nth-of-type(3n+1):after,
+.notebook section :nth-child(3n+2) a:nth-of-type(3n+1):after,
+.home article :nth-child(3n+2) a:nth-of-type(3n+1):after,
+.notebook article :nth-child(3n+2) a:nth-of-type(3n+1):after {
+  width: 0;
+  height: 2px;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  right: 0;
+  background-color: transparent;
+}
+.home section :nth-child(3n+2) a:nth-of-type(3n+1):hover:after,
+.notebook section :nth-child(3n+2) a:nth-of-type(3n+1):hover:after,
+.home article :nth-child(3n+2) a:nth-of-type(3n+1):hover:after,
+.notebook article :nth-child(3n+2) a:nth-of-type(3n+1):hover:after {
+  background-color: #f32e71;
+  width: 100%;
+}
+.home section :nth-child(3n+2) a:nth-of-type(3n+2),
+.notebook section :nth-child(3n+2) a:nth-of-type(3n+2),
+.home article :nth-child(3n+2) a:nth-of-type(3n+2),
+.notebook article :nth-child(3n+2) a:nth-of-type(3n+2) {
+  color: #33cccc;
+  position: relative;
+  white-space: nowrap;
+}
+.home section :nth-child(3n+2) a:nth-of-type(3n+2):after,
+.notebook section :nth-child(3n+2) a:nth-of-type(3n+2):after,
+.home article :nth-child(3n+2) a:nth-of-type(3n+2):after,
+.notebook article :nth-child(3n+2) a:nth-of-type(3n+2):after {
+  width: 0;
+  height: 2px;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  right: 0;
+  background-color: transparent;
+}
+.home section :nth-child(3n+2) a:nth-of-type(3n+2):hover:after,
+.notebook section :nth-child(3n+2) a:nth-of-type(3n+2):hover:after,
+.home article :nth-child(3n+2) a:nth-of-type(3n+2):hover:after,
+.notebook article :nth-child(3n+2) a:nth-of-type(3n+2):hover:after {
+  background-color: #33cccc;
+  width: 100%;
+}
+.home section :nth-child(3n+2) a:nth-of-type(3n+3),
+.notebook section :nth-child(3n+2) a:nth-of-type(3n+3),
+.home article :nth-child(3n+2) a:nth-of-type(3n+3),
+.notebook article :nth-child(3n+2) a:nth-of-type(3n+3) {
+  color: #be80ff;
+  position: relative;
+  white-space: nowrap;
+}
+.home section :nth-child(3n+2) a:nth-of-type(3n+3):after,
+.notebook section :nth-child(3n+2) a:nth-of-type(3n+3):after,
+.home article :nth-child(3n+2) a:nth-of-type(3n+3):after,
+.notebook article :nth-child(3n+2) a:nth-of-type(3n+3):after {
+  width: 0;
+  height: 2px;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  right: 0;
+  background-color: transparent;
+}
+.home section :nth-child(3n+2) a:nth-of-type(3n+3):hover:after,
+.notebook section :nth-child(3n+2) a:nth-of-type(3n+3):hover:after,
+.home article :nth-child(3n+2) a:nth-of-type(3n+3):hover:after,
+.notebook article :nth-child(3n+2) a:nth-of-type(3n+3):hover:after {
+  background-color: #be80ff;
+  width: 100%;
+}
+.home section :nth-child(3n+3) a:nth-of-type(3n+1),
+.notebook section :nth-child(3n+3) a:nth-of-type(3n+1),
+.home article :nth-child(3n+3) a:nth-of-type(3n+1),
+.notebook article :nth-child(3n+3) a:nth-of-type(3n+1) {
+  color: #be80ff;
+  position: relative;
+  white-space: nowrap;
+}
+.home section :nth-child(3n+3) a:nth-of-type(3n+1):after,
+.notebook section :nth-child(3n+3) a:nth-of-type(3n+1):after,
+.home article :nth-child(3n+3) a:nth-of-type(3n+1):after,
+.notebook article :nth-child(3n+3) a:nth-of-type(3n+1):after {
+  width: 0;
+  height: 2px;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  right: 0;
+  background-color: transparent;
+}
+.home section :nth-child(3n+3) a:nth-of-type(3n+1):hover:after,
+.notebook section :nth-child(3n+3) a:nth-of-type(3n+1):hover:after,
+.home article :nth-child(3n+3) a:nth-of-type(3n+1):hover:after,
+.notebook article :nth-child(3n+3) a:nth-of-type(3n+1):hover:after {
+  background-color: #be80ff;
+  width: 100%;
+}
+.home section :nth-child(3n+3) a:nth-of-type(3n+2),
+.notebook section :nth-child(3n+3) a:nth-of-type(3n+2),
+.home article :nth-child(3n+3) a:nth-of-type(3n+2),
+.notebook article :nth-child(3n+3) a:nth-of-type(3n+2) {
+  color: #f32e71;
+  position: relative;
+  white-space: nowrap;
+}
+.home section :nth-child(3n+3) a:nth-of-type(3n+2):after,
+.notebook section :nth-child(3n+3) a:nth-of-type(3n+2):after,
+.home article :nth-child(3n+3) a:nth-of-type(3n+2):after,
+.notebook article :nth-child(3n+3) a:nth-of-type(3n+2):after {
+  width: 0;
+  height: 2px;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  right: 0;
+  background-color: transparent;
+}
+.home section :nth-child(3n+3) a:nth-of-type(3n+2):hover:after,
+.notebook section :nth-child(3n+3) a:nth-of-type(3n+2):hover:after,
+.home article :nth-child(3n+3) a:nth-of-type(3n+2):hover:after,
+.notebook article :nth-child(3n+3) a:nth-of-type(3n+2):hover:after {
+  background-color: #f32e71;
+  width: 100%;
+}
+.home section :nth-child(3n+3) a:nth-of-type(3n+3),
+.notebook section :nth-child(3n+3) a:nth-of-type(3n+3),
+.home article :nth-child(3n+3) a:nth-of-type(3n+3),
+.notebook article :nth-child(3n+3) a:nth-of-type(3n+3) {
+  color: #33cccc;
+  position: relative;
+  white-space: nowrap;
+}
+.home section :nth-child(3n+3) a:nth-of-type(3n+3):after,
+.notebook section :nth-child(3n+3) a:nth-of-type(3n+3):after,
+.home article :nth-child(3n+3) a:nth-of-type(3n+3):after,
+.notebook article :nth-child(3n+3) a:nth-of-type(3n+3):after {
+  width: 0;
+  height: 2px;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  right: 0;
+  background-color: transparent;
+}
+.home section :nth-child(3n+3) a:nth-of-type(3n+3):hover:after,
+.notebook section :nth-child(3n+3) a:nth-of-type(3n+3):hover:after,
+.home article :nth-child(3n+3) a:nth-of-type(3n+3):hover:after,
+.notebook article :nth-child(3n+3) a:nth-of-type(3n+3):hover:after {
+  background-color: #33cccc;
+  width: 100%;
+}
+body > section {
+  width: 100%;
+  display: table-cell;
+  vertical-align: middle;
+}
+body > article {
+  background: #fcfcfc;
+  color: #111;
+}
+body > article time {
+  color: #ccc;
+}
+article footer {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  overflow: hidden;
+}
+article footer > div {
+  width: 47.5%;
+  float: left;
+}
+article footer > div + div {
+  float: right;
+}
+article footer h1,
+article footer h2,
+article footer h3,
+article footer h4,
+article footer h5,
+article footer h6,
+article footer ul,
+article footer ol,
+article footer p,
+article footer time,
+article footer iframe,
+article footer hr {
+  width: 100%;
+}
+article footer + hr {
+  margin-top: 1em;
+}
+article footer ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+article footer ul > li {
+  margin: 0;
+  padding: 0;
+}
+.notebook article footer ul li:nth-child(3n+1) a:nth-child(1) {
+  color: #33cccc;
+  position: relative;
+  white-space: nowrap;
+}
+.notebook article footer ul li:nth-child(3n+1) a:nth-child(1):after {
+  width: 0;
+  height: 2px;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  right: 0;
+  background-color: transparent;
+}
+.notebook article footer ul li:nth-child(3n+1) a:nth-child(1):hover:after {
+  background-color: #33cccc;
+  width: 100%;
+}
+.notebook article footer ul li:nth-child(3n+2) a:nth-child(1) {
+  color: #be80ff;
+  position: relative;
+  white-space: nowrap;
+}
+.notebook article footer ul li:nth-child(3n+2) a:nth-child(1):after {
+  width: 0;
+  height: 2px;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  right: 0;
+  background-color: transparent;
+}
+.notebook article footer ul li:nth-child(3n+2) a:nth-child(1):hover:after {
+  background-color: #be80ff;
+  width: 100%;
+}
+.notebook article footer ul li:nth-child(3n+3) a:nth-child(1) {
+  color: #f32e71;
+  position: relative;
+  white-space: nowrap;
+}
+.notebook article footer ul li:nth-child(3n+3) a:nth-child(1):after {
+  width: 0;
+  height: 2px;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  right: 0;
+  background-color: transparent;
+}
+.notebook article footer ul li:nth-child(3n+3) a:nth-child(1):hover:after {
+  background-color: #f32e71;
+  width: 100%;
+}
+body.work {
+  background: #be80ff;
+}
+body.work > section {
+  padding-bottom: 0;
+}
+section.project {
+  padding-top: 30px;
+  text-align: center;
+}
+section.project a:nth-child(1n+1) {
+  color: #fff;
+}
+section.project a:nth-child(1n+1):after {
+  display: none;
+}
+section.project h2,
+section.project h3,
+section.project h4,
+section.project h5,
+section.project h6 {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+section.project p {
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+section.project img {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 93.75%;
+  margin-bottom: 0;
+}
+section.project.travel {
+  background: #a0d430;
+}
+section.project.redskins {
+  background: #b41f17;
+  color: #fff;
+}
+section.project.torrent {
+  background: #2dbedd;
+}
+@media (max-width: 40em) {
+  section.project {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    width: 100%;
+    margin: 0;
+  }
+  section.project h2,
+  section.project h3,
+  section.project h4,
+  section.project h5,
+  section.project h6,
+  section.project p {
+    width: 80%;
+  }
+  section.project h2,
+  section.project h3,
+  section.project h4,
+  section.project h5,
+  section.project h6 {
+    font-size: 2rem;
+  }
+  section.project p {
+    font-size: 1rem;
+  }
+}
+@-ms-viewport {
+  width: device-width;
+}
+@-o-viewport {
+  width: device-width;
+}
+@viewport {
+  width: device-width;
+}

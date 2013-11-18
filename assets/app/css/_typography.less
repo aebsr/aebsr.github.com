@@ -1,0 +1,125 @@
+html{
+	font: 300 15px/2em "museo-sans", arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, ul, ol, p, pre, address, time, blockquote, cite {
+	position: relative;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	word-spacing: -0.125em;
+	top: 5px;
+
+	+ p {
+		margin-top: 0;
+	}
+}
+
+h1{
+	font-size: 60px;
+	top: 10px;
+	line-height: 1;
+}
+
+h2{
+	font-size:30px;
+}
+
+h3{
+	font-size:20px;
+	line-height: 30px;
+	top: 8px;
+}
+
+h4, h5, h6 {
+	font-size: 1rem;
+	top: 10px;
+}
+
+@media (max-width: 40em) {
+	h1 {
+		font-size: 2em;
+		top: 5px;
+	}
+	h3 {
+		font-size: 1em;
+	}
+}
+
+h1, h2, h3, h4, h5, h6,
+p:first-child {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+h1:first-child + h2,
+h2:first-child + h3,
+h3:first-child + h4,
+h4:first-child + h5 {
+	font-size: 1em;
+	top: 10px;
+}
+
+p,pre,address{
+	font-size: 1rem;
+}
+
+p, ul, ol {
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	top: 10px;
+}
+
+h4,h5,h6,b,strong,caption,th,thead,dt,legend{font-weight:700;}
+
+time {
+	font-style: italic;
+
+	+ * {
+		margin-bottom: 30px;
+	}
+}
+
+blockquote {
+	.v-padding(30px);
+}
+
+cite {
+	display: block;
+	text-align: right;
+	top: 5px;
+
+	&:before {
+		content: '\2014 ';
+	}
+}
+
+.meta {
+	font-size: 11px;
+	top: 11px;
+}
+
+// Code
+// --------------------------------------------------
+
+p,
+li { 
+	code {
+		white-space: nowrap;
+		background-color: #dedede;
+		.border-radius(3px);
+	}
+}
+pre {
+	overflow-x: auto;
+	white-space: pre;
+	&::-webkit-scrollbar {
+		height: 12px;
+		background-color: #34362e;
+		border-radius: 0 0 0.333em 0.333em;
+	}
+	&::-webkit-scrollbar-thumb:horizontal {
+		background-color: #6a6d5d;
+		.border-radius(.266666667);
+	}
+}

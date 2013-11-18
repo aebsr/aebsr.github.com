@@ -1,0 +1,18 @@
+// placeholder mixin
+// usage
+//     input {
+//         .placeholder-styles() {
+//             color: red;
+//         }
+//         .placeholder();
+//     }
+.placeholder() {
+  &::-webkit-input-placeholder { .placeholder-styles; }
+  &:-ms-input-placeholder { .placeholder-styles; }
+  &::input-placeholder { .placeholder-styles; }
+  &:input-placeholder { .placeholder-styles; }
+  &::-moz-placeholder { .placeholder-styles; }
+  &:-moz-placeholder { .placeholder-styles; }
+  &::placeholder { .placeholder-styles; }
+  &:placeholder { .placeholder-styles; }
+}

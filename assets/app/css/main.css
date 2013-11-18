@@ -386,17 +386,13 @@ body {
   background: #222;
   position: relative;
 }
-@media (max-width: 40em) {
-  body {
-    padding-left: 0;
-    padding-bottom: 4em;
-  }
-}
 body > section,
 body > article {
   padding-top: 2em;
   padding-bottom: 2em;
   min-height: 100%;
+  position: relative;
+  z-index: 2;
 }
 nav {
   padding: 1em 0;
@@ -410,7 +406,7 @@ nav {
   height: 100%;
   width: 4em;
   text-align: center;
-  z-index: 99;
+  z-index: 1;
 }
 nav > a {
   -webkit-transform: rotate(90deg);
@@ -462,7 +458,7 @@ article > pre,
   margin-right: auto;
   width: 50%;
 }
-@media (max-width: 40em) {
+@media (max-width: 56.25em) {
   h1,
   h2,
   h3,
@@ -521,7 +517,7 @@ blockquote p:last-child:after {
   right: -0.75em;
   bottom: -2px;
 }
-@media (max-width: 40em) {
+@media (max-width: 56.25em) {
   blockquote {
     padding-top: 0;
   }
@@ -571,7 +567,7 @@ figure img {
   min-height: 50%;
   margin: auto;
 }
-@media (max-width: 40em) {
+@media (max-width: 56.25em) {
   figure {
     height: 10rem;
   }
@@ -605,11 +601,6 @@ p:first-child:last-child {
   font-size: 30px;
   line-height: 1.5;
   color: #777;
-}
-@media (max-width: 40em) {
-  p:first-child:last-child {
-    font-size: 20px;
-  }
 }
 html {
   font: 300 15px/2em "museo-sans", arial, sans-serif;
@@ -665,15 +656,6 @@ h5,
 h6 {
   font-size: 1rem;
   top: 10px;
-}
-@media (max-width: 40em) {
-  h1 {
-    font-size: 2em;
-    top: 5px;
-  }
-  h3 {
-    font-size: 1em;
-  }
 }
 h1,
 h2,
@@ -781,6 +763,21 @@ pre::-webkit-scrollbar-thumb:horizontal {
   -moz-user-select: none;
   user-select: none;
 }
+@media (max-width: 56.25em) {
+  .kudos {
+    -webkit-transform: scale(0.75);
+    -moz-transform: scale(0.75);
+    -ms-transform: scale(0.75);
+    -o-transform: scale(0.75);
+    transform: scale(0.75);
+    right: auto;
+    left: 0.5em;
+    bottom: 1em;
+  }
+  .kudos:before {
+    color: #eee;
+  }
+}
 .kudos:after {
   -webkit-transition: font-size 0.45s ease-in;
   -moz-transition: font-size 0.45s ease-in;
@@ -867,6 +864,11 @@ body.about section :nth-child(3n+1) a:nth-of-type(3n+1):hover:after {
   background-color: #111111;
   width: 100%;
 }
+@media (max-width: 56.25em) {
+  body.about section :nth-child(3n+1) a:nth-of-type(3n+1) {
+    white-space: normal;
+  }
+}
 body.about section :nth-child(3n+1) a:nth-of-type(3n+2) {
   color: #7000e6;
   position: relative;
@@ -891,6 +893,11 @@ body.about section :nth-child(3n+1) a:nth-of-type(3n+2):after {
 body.about section :nth-child(3n+1) a:nth-of-type(3n+2):hover:after {
   background-color: #7000e6;
   width: 100%;
+}
+@media (max-width: 56.25em) {
+  body.about section :nth-child(3n+1) a:nth-of-type(3n+2) {
+    white-space: normal;
+  }
 }
 body.about section :nth-child(3n+1) a:nth-of-type(3n+3) {
   color: #f32e71;
@@ -917,6 +924,11 @@ body.about section :nth-child(3n+1) a:nth-of-type(3n+3):hover:after {
   background-color: #f32e71;
   width: 100%;
 }
+@media (max-width: 56.25em) {
+  body.about section :nth-child(3n+1) a:nth-of-type(3n+3) {
+    white-space: normal;
+  }
+}
 body.about section :nth-child(3n+2) a:nth-of-type(3n+1) {
   color: #f32e71;
   position: relative;
@@ -941,6 +953,11 @@ body.about section :nth-child(3n+2) a:nth-of-type(3n+1):after {
 body.about section :nth-child(3n+2) a:nth-of-type(3n+1):hover:after {
   background-color: #f32e71;
   width: 100%;
+}
+@media (max-width: 56.25em) {
+  body.about section :nth-child(3n+2) a:nth-of-type(3n+1) {
+    white-space: normal;
+  }
 }
 body.about section :nth-child(3n+2) a:nth-of-type(3n+2) {
   color: #111111;
@@ -967,6 +984,11 @@ body.about section :nth-child(3n+2) a:nth-of-type(3n+2):hover:after {
   background-color: #111111;
   width: 100%;
 }
+@media (max-width: 56.25em) {
+  body.about section :nth-child(3n+2) a:nth-of-type(3n+2) {
+    white-space: normal;
+  }
+}
 body.about section :nth-child(3n+2) a:nth-of-type(3n+3) {
   color: #7000e6;
   position: relative;
@@ -991,6 +1013,11 @@ body.about section :nth-child(3n+2) a:nth-of-type(3n+3):after {
 body.about section :nth-child(3n+2) a:nth-of-type(3n+3):hover:after {
   background-color: #7000e6;
   width: 100%;
+}
+@media (max-width: 56.25em) {
+  body.about section :nth-child(3n+2) a:nth-of-type(3n+3) {
+    white-space: normal;
+  }
 }
 body.about section :nth-child(3n+3) a:nth-of-type(3n+1) {
   color: #7000e6;
@@ -1017,6 +1044,11 @@ body.about section :nth-child(3n+3) a:nth-of-type(3n+1):hover:after {
   background-color: #7000e6;
   width: 100%;
 }
+@media (max-width: 56.25em) {
+  body.about section :nth-child(3n+3) a:nth-of-type(3n+1) {
+    white-space: normal;
+  }
+}
 body.about section :nth-child(3n+3) a:nth-of-type(3n+2) {
   color: #f32e71;
   position: relative;
@@ -1042,6 +1074,11 @@ body.about section :nth-child(3n+3) a:nth-of-type(3n+2):hover:after {
   background-color: #f32e71;
   width: 100%;
 }
+@media (max-width: 56.25em) {
+  body.about section :nth-child(3n+3) a:nth-of-type(3n+2) {
+    white-space: normal;
+  }
+}
 body.about section :nth-child(3n+3) a:nth-of-type(3n+3) {
   color: #111111;
   position: relative;
@@ -1066,6 +1103,11 @@ body.about section :nth-child(3n+3) a:nth-of-type(3n+3):after {
 body.about section :nth-child(3n+3) a:nth-of-type(3n+3):hover:after {
   background-color: #111111;
   width: 100%;
+}
+@media (max-width: 56.25em) {
+  body.about section :nth-child(3n+3) a:nth-of-type(3n+3) {
+    white-space: normal;
+  }
 }
 .home,
 .notebook {
@@ -1105,6 +1147,14 @@ body.about section :nth-child(3n+3) a:nth-of-type(3n+3):hover:after {
   background-color: #33cccc;
   width: 100%;
 }
+@media (max-width: 56.25em) {
+  .home section :nth-child(3n+1) a:nth-of-type(3n+1),
+  .notebook section :nth-child(3n+1) a:nth-of-type(3n+1),
+  .home article :nth-child(3n+1) a:nth-of-type(3n+1),
+  .notebook article :nth-child(3n+1) a:nth-of-type(3n+1) {
+    white-space: normal;
+  }
+}
 .home section :nth-child(3n+1) a:nth-of-type(3n+2),
 .notebook section :nth-child(3n+1) a:nth-of-type(3n+2),
 .home article :nth-child(3n+1) a:nth-of-type(3n+2),
@@ -1138,6 +1188,14 @@ body.about section :nth-child(3n+3) a:nth-of-type(3n+3):hover:after {
 .notebook article :nth-child(3n+1) a:nth-of-type(3n+2):hover:after {
   background-color: #be80ff;
   width: 100%;
+}
+@media (max-width: 56.25em) {
+  .home section :nth-child(3n+1) a:nth-of-type(3n+2),
+  .notebook section :nth-child(3n+1) a:nth-of-type(3n+2),
+  .home article :nth-child(3n+1) a:nth-of-type(3n+2),
+  .notebook article :nth-child(3n+1) a:nth-of-type(3n+2) {
+    white-space: normal;
+  }
 }
 .home section :nth-child(3n+1) a:nth-of-type(3n+3),
 .notebook section :nth-child(3n+1) a:nth-of-type(3n+3),
@@ -1173,6 +1231,14 @@ body.about section :nth-child(3n+3) a:nth-of-type(3n+3):hover:after {
   background-color: #f32e71;
   width: 100%;
 }
+@media (max-width: 56.25em) {
+  .home section :nth-child(3n+1) a:nth-of-type(3n+3),
+  .notebook section :nth-child(3n+1) a:nth-of-type(3n+3),
+  .home article :nth-child(3n+1) a:nth-of-type(3n+3),
+  .notebook article :nth-child(3n+1) a:nth-of-type(3n+3) {
+    white-space: normal;
+  }
+}
 .home section :nth-child(3n+2) a:nth-of-type(3n+1),
 .notebook section :nth-child(3n+2) a:nth-of-type(3n+1),
 .home article :nth-child(3n+2) a:nth-of-type(3n+1),
@@ -1206,6 +1272,14 @@ body.about section :nth-child(3n+3) a:nth-of-type(3n+3):hover:after {
 .notebook article :nth-child(3n+2) a:nth-of-type(3n+1):hover:after {
   background-color: #f32e71;
   width: 100%;
+}
+@media (max-width: 56.25em) {
+  .home section :nth-child(3n+2) a:nth-of-type(3n+1),
+  .notebook section :nth-child(3n+2) a:nth-of-type(3n+1),
+  .home article :nth-child(3n+2) a:nth-of-type(3n+1),
+  .notebook article :nth-child(3n+2) a:nth-of-type(3n+1) {
+    white-space: normal;
+  }
 }
 .home section :nth-child(3n+2) a:nth-of-type(3n+2),
 .notebook section :nth-child(3n+2) a:nth-of-type(3n+2),
@@ -1241,6 +1315,14 @@ body.about section :nth-child(3n+3) a:nth-of-type(3n+3):hover:after {
   background-color: #33cccc;
   width: 100%;
 }
+@media (max-width: 56.25em) {
+  .home section :nth-child(3n+2) a:nth-of-type(3n+2),
+  .notebook section :nth-child(3n+2) a:nth-of-type(3n+2),
+  .home article :nth-child(3n+2) a:nth-of-type(3n+2),
+  .notebook article :nth-child(3n+2) a:nth-of-type(3n+2) {
+    white-space: normal;
+  }
+}
 .home section :nth-child(3n+2) a:nth-of-type(3n+3),
 .notebook section :nth-child(3n+2) a:nth-of-type(3n+3),
 .home article :nth-child(3n+2) a:nth-of-type(3n+3),
@@ -1274,6 +1356,14 @@ body.about section :nth-child(3n+3) a:nth-of-type(3n+3):hover:after {
 .notebook article :nth-child(3n+2) a:nth-of-type(3n+3):hover:after {
   background-color: #be80ff;
   width: 100%;
+}
+@media (max-width: 56.25em) {
+  .home section :nth-child(3n+2) a:nth-of-type(3n+3),
+  .notebook section :nth-child(3n+2) a:nth-of-type(3n+3),
+  .home article :nth-child(3n+2) a:nth-of-type(3n+3),
+  .notebook article :nth-child(3n+2) a:nth-of-type(3n+3) {
+    white-space: normal;
+  }
 }
 .home section :nth-child(3n+3) a:nth-of-type(3n+1),
 .notebook section :nth-child(3n+3) a:nth-of-type(3n+1),
@@ -1309,6 +1399,14 @@ body.about section :nth-child(3n+3) a:nth-of-type(3n+3):hover:after {
   background-color: #be80ff;
   width: 100%;
 }
+@media (max-width: 56.25em) {
+  .home section :nth-child(3n+3) a:nth-of-type(3n+1),
+  .notebook section :nth-child(3n+3) a:nth-of-type(3n+1),
+  .home article :nth-child(3n+3) a:nth-of-type(3n+1),
+  .notebook article :nth-child(3n+3) a:nth-of-type(3n+1) {
+    white-space: normal;
+  }
+}
 .home section :nth-child(3n+3) a:nth-of-type(3n+2),
 .notebook section :nth-child(3n+3) a:nth-of-type(3n+2),
 .home article :nth-child(3n+3) a:nth-of-type(3n+2),
@@ -1343,6 +1441,14 @@ body.about section :nth-child(3n+3) a:nth-of-type(3n+3):hover:after {
   background-color: #f32e71;
   width: 100%;
 }
+@media (max-width: 56.25em) {
+  .home section :nth-child(3n+3) a:nth-of-type(3n+2),
+  .notebook section :nth-child(3n+3) a:nth-of-type(3n+2),
+  .home article :nth-child(3n+3) a:nth-of-type(3n+2),
+  .notebook article :nth-child(3n+3) a:nth-of-type(3n+2) {
+    white-space: normal;
+  }
+}
 .home section :nth-child(3n+3) a:nth-of-type(3n+3),
 .notebook section :nth-child(3n+3) a:nth-of-type(3n+3),
 .home article :nth-child(3n+3) a:nth-of-type(3n+3),
@@ -1376,6 +1482,14 @@ body.about section :nth-child(3n+3) a:nth-of-type(3n+3):hover:after {
 .notebook article :nth-child(3n+3) a:nth-of-type(3n+3):hover:after {
   background-color: #33cccc;
   width: 100%;
+}
+@media (max-width: 56.25em) {
+  .home section :nth-child(3n+3) a:nth-of-type(3n+3),
+  .notebook section :nth-child(3n+3) a:nth-of-type(3n+3),
+  .home article :nth-child(3n+3) a:nth-of-type(3n+3),
+  .notebook article :nth-child(3n+3) a:nth-of-type(3n+3) {
+    white-space: normal;
+  }
 }
 body > section {
   width: 100%;
@@ -1453,6 +1567,11 @@ article footer ul > li {
   background-color: #33cccc;
   width: 100%;
 }
+@media (max-width: 56.25em) {
+  .notebook article footer ul li:nth-child(3n+1) a:nth-child(1) {
+    white-space: normal;
+  }
+}
 .notebook article footer ul li:nth-child(3n+2) a:nth-child(1) {
   color: #be80ff;
   position: relative;
@@ -1478,6 +1597,11 @@ article footer ul > li {
   background-color: #be80ff;
   width: 100%;
 }
+@media (max-width: 56.25em) {
+  .notebook article footer ul li:nth-child(3n+2) a:nth-child(1) {
+    white-space: normal;
+  }
+}
 .notebook article footer ul li:nth-child(3n+3) a:nth-child(1) {
   color: #f32e71;
   position: relative;
@@ -1502,6 +1626,19 @@ article footer ul > li {
 .notebook article footer ul li:nth-child(3n+3) a:nth-child(1):hover:after {
   background-color: #f32e71;
   width: 100%;
+}
+@media (max-width: 56.25em) {
+  .notebook article footer ul li:nth-child(3n+3) a:nth-child(1) {
+    white-space: normal;
+  }
+}
+@media (max-width: 56.35em) {
+  article footer {
+    width: 80%;
+  }
+  article footer > div {
+    width: 100%;
+  }
 }
 body.work {
   background: #be80ff;
@@ -1547,7 +1684,7 @@ section.project.redskins {
 section.project.torrent {
   background: #2dbedd;
 }
-@media (max-width: 40em) {
+@media (max-width: 56.25em) {
   section.project {
     -webkit-border-radius: 0;
     -moz-border-radius: 0;

@@ -13,15 +13,12 @@ body {
 	background: #222;
 	position: relative;
 
-	@media (max-width: 40em) {
-		padding-left: 0;
-		padding-bottom: 4em;
-	}
-
 	> section,
 	> article {
 		.v-padding(2em);
 		min-height: 100%;
+		position: relative;
+		z-index: 2;
 	}
 }
 
@@ -38,7 +35,7 @@ nav {
 	height: 100%;
 	width: 4em;
 	text-align: center;
-	z-index: 99;
+	z-index: 1;
 
 	> a {
 		.rotate(90deg);
@@ -75,7 +72,7 @@ article > div, article > pre,
 	.h-margin(auto);
 	width: 50%;
 
-	@media (max-width: 40em) {
+	@media (max-width: 56.25em) {
 		width: 80%;
 	}
 }
@@ -125,7 +122,7 @@ blockquote {
 		bottom: -2px;
 	}
 
-	@media (max-width: 40em) {
+	@media (max-width: 56.25em) {
 		padding-top: 0;
 
 		p {
@@ -177,7 +174,7 @@ figure {
 		margin: auto;
 	}
 
-	@media (max-width: 40em) {
+	@media (max-width: 56.25em) {
 		height: 10rem;
 
 		.billboard {
@@ -214,8 +211,4 @@ p:first-child:last-child {
 	font-size: 30px;
 	line-height: 1.5;
 	color: #777;
-
-	@media (max-width: 40em) {
-		font-size: 20px;
-	}
 }

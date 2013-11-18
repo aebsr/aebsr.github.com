@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Allow Me To Re-introduce Myself
-tags: community, dctech
+tags: [community, dctech]
 description: "As I stumble through git commits and missing meetups, I'll try and find a balance between life, community and code."
 ---
 

@@ -1,9 +1,0 @@
-{
-  "name": "new-you",
-  "version": "0.0.0",
-  "dependencies": {
-    "normalize-css": "~2.x",
-    "bedrock": "~1.x",
-    "KudosPlease": "git@github.com:TimPietrusky/KudosPlease.git"
-  }
-}

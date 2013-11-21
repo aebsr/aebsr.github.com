@@ -477,6 +477,9 @@ article > pre,
     width: 80%;
   }
 }
+p > img {
+  max-width: 100%;
+}
 li ol,
 li ul {
   width: 100%;

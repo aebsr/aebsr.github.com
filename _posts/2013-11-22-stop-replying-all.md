@@ -17,6 +17,9 @@ It's that simple, really. Address your email as usual, and <abbr title="Blind Ca
 
 Then there's the trust factor. Did I, the original sender, email everyone? Or, just specific people? Is this an "In" thing? Is it OK to bring the message up with other coworkers? This is a non-issue, really, when used appropriately. However, if there's any doubt, it might be better to specifically call attention to the fact that the communication is in fact for EVERYONE. Your call on how to handle that, whether in the Subject or the Body.
 
-***
+> You're heartless, don't call again.
+> Don't email, we can't be friends.
+> I swear that this is the end
+<cite>[My Girls](http://rapgenius.com/Childish-gambino-my-girls-lyrics)</cite>
 
 I'm sure I'm not the only person to do this. But then again, I've received about 50 Reply All emails this week. *Happy sending.*

@@ -424,12 +424,24 @@ nav > a {
   font-family: "Mahalia Regular", "mahalia", "Lucida Handwriting", Georgia, cursive;
   color: #fff;
   position: relative;
-  right: 22px;
+  right: 1.6788em;
   top: 1em;
   zoom: 2;
 }
+@media (max-width: 40em) {
+  body {
+    padding-left: 2em;
+  }
+  nav {
+    width: 2em;
+    line-height: 2em;
+  }
+  nav > a {
+    zoom: 1;
+  }
+}
 hgroup {
-  margin-bottom: 30px;
+  margin-bottom: 2rem;
 }
 hgroup h2 {
   text-transform: lowercase;
@@ -498,7 +510,7 @@ blockquote {
   margin: 0 auto;
 }
 blockquote p {
-  font: 700 30px/1em "museo-sans", arial, sans-serif;
+  font: 700 2rem/1em "museo-sans", arial, sans-serif;
 }
 blockquote cite {
   font-size: 0.5em;
@@ -534,8 +546,8 @@ blockquote p:last-child:after {
   }
 }
 aside {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   width: 100%;
   background: #000;
   margin-top: 60px;
@@ -547,7 +559,7 @@ figure {
   width: 100%;
   height: 30rem;
   overflow: hidden;
-  margin-bottom: 30px;
+  margin-bottom: 2rem;
 }
 figure .billboard {
   width: 200%;
@@ -600,13 +612,21 @@ hr {
   border-top: 1px solid rgba(0, 0, 0, 0.05);
   border-bottom: 1px solid rgba(255, 255, 255, 0.25);
 }
-p:first-child:last-child {
-  font-size: 30px;
+section > p:first-child:last-child {
+  font-size: 2rem;
   line-height: 1.5;
   color: #777;
 }
+section > p:first-child:last-child a {
+  white-space: nowrap;
+}
 html {
   font: 300 15px/2em "museo-sans", arial, sans-serif;
+}
+@media (max-width: 40em) {
+  html {
+    font-size: 14px;
+  }
 }
 h1,
 h2,
@@ -631,7 +651,7 @@ h4,
 h5,
 h6 {
   word-spacing: -0.125em;
-  top: 5px;
+  top: 0.333rem;
 }
 h1 + p,
 h2 + p,
@@ -642,23 +662,45 @@ h6 + p {
   margin-top: 0;
 }
 h1 {
-  font-size: 60px;
-  top: 10px;
+  font-size: 4rem;
+  top: 0.666rem;
   line-height: 1;
 }
 h2 {
-  font-size: 30px;
+  font-size: 2rem;
+}
+h2 a {
+  white-space: normal;
 }
 h3 {
-  font-size: 20px;
-  line-height: 30px;
-  top: 8px;
+  font-size: 1.333333333rem;
+  line-height: 2rem;
+  top: 0.533333333rem;
 }
 h4,
 h5,
 h6 {
   font-size: 1rem;
-  top: 10px;
+  top: 0.666rem;
+}
+@media (max-width: 40em) {
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 1.332rem;
+  }
+  h3 {
+    font-size: 0.887778em;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    letter-spacing: normal;
+  }
 }
 h1,
 h2,
@@ -675,7 +717,7 @@ h2:first-child + h3,
 h3:first-child + h4,
 h4:first-child + h5 {
   font-size: 1em;
-  top: 10px;
+  top: 0.666rem;
 }
 p,
 pre,
@@ -687,7 +729,7 @@ ul,
 ol {
   margin-top: 2rem;
   margin-bottom: 2rem;
-  top: 10px;
+  top: 0.666rem;
 }
 h4,
 h5,
@@ -705,23 +747,23 @@ time {
   font-style: italic;
 }
 time + * {
-  margin-bottom: 30px;
+  margin-bottom: 2rem;
 }
 blockquote {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 cite {
   display: block;
   text-align: right;
-  top: 5px;
+  top: 0.33rem;
 }
 cite:before {
   content: '\2014 ';
 }
 .meta {
-  font-size: 11px;
-  top: 11px;
+  font-size: 0.733333333rem;
+  top: 0.733333333rem;
 }
 p code,
 li code {
@@ -839,13 +881,18 @@ pre::-webkit-scrollbar-thumb:horizontal {
   white-space: nowrap;
   font-weight: bold;
 }
+@media (max-width: 40em) {
+  .kudos:before {
+    color: #eee;
+    left: -1.5em;
+  }
+}
 body.about {
   background-color: #3cc;
 }
 body.about section :nth-child(3n+1) a:nth-of-type(3n+1) {
   color: #111111;
   position: relative;
-  white-space: nowrap;
 }
 body.about section :nth-child(3n+1) a:nth-of-type(3n+1):after {
   width: 0;
@@ -867,15 +914,9 @@ body.about section :nth-child(3n+1) a:nth-of-type(3n+1):hover:after {
   background-color: #111111;
   width: 100%;
 }
-@media (max-width: 56.25em) {
-  body.about section :nth-child(3n+1) a:nth-of-type(3n+1) {
-    white-space: normal;
-  }
-}
 body.about section :nth-child(3n+1) a:nth-of-type(3n+2) {
   color: #7000e6;
   position: relative;
-  white-space: nowrap;
 }
 body.about section :nth-child(3n+1) a:nth-of-type(3n+2):after {
   width: 0;
@@ -897,15 +938,9 @@ body.about section :nth-child(3n+1) a:nth-of-type(3n+2):hover:after {
   background-color: #7000e6;
   width: 100%;
 }
-@media (max-width: 56.25em) {
-  body.about section :nth-child(3n+1) a:nth-of-type(3n+2) {
-    white-space: normal;
-  }
-}
 body.about section :nth-child(3n+1) a:nth-of-type(3n+3) {
   color: #f32e71;
   position: relative;
-  white-space: nowrap;
 }
 body.about section :nth-child(3n+1) a:nth-of-type(3n+3):after {
   width: 0;
@@ -927,15 +962,9 @@ body.about section :nth-child(3n+1) a:nth-of-type(3n+3):hover:after {
   background-color: #f32e71;
   width: 100%;
 }
-@media (max-width: 56.25em) {
-  body.about section :nth-child(3n+1) a:nth-of-type(3n+3) {
-    white-space: normal;
-  }
-}
 body.about section :nth-child(3n+2) a:nth-of-type(3n+1) {
   color: #f32e71;
   position: relative;
-  white-space: nowrap;
 }
 body.about section :nth-child(3n+2) a:nth-of-type(3n+1):after {
   width: 0;
@@ -957,15 +986,9 @@ body.about section :nth-child(3n+2) a:nth-of-type(3n+1):hover:after {
   background-color: #f32e71;
   width: 100%;
 }
-@media (max-width: 56.25em) {
-  body.about section :nth-child(3n+2) a:nth-of-type(3n+1) {
-    white-space: normal;
-  }
-}
 body.about section :nth-child(3n+2) a:nth-of-type(3n+2) {
   color: #111111;
   position: relative;
-  white-space: nowrap;
 }
 body.about section :nth-child(3n+2) a:nth-of-type(3n+2):after {
   width: 0;
@@ -987,15 +1010,9 @@ body.about section :nth-child(3n+2) a:nth-of-type(3n+2):hover:after {
   background-color: #111111;
   width: 100%;
 }
-@media (max-width: 56.25em) {
-  body.about section :nth-child(3n+2) a:nth-of-type(3n+2) {
-    white-space: normal;
-  }
-}
 body.about section :nth-child(3n+2) a:nth-of-type(3n+3) {
   color: #7000e6;
   position: relative;
-  white-space: nowrap;
 }
 body.about section :nth-child(3n+2) a:nth-of-type(3n+3):after {
   width: 0;
@@ -1017,15 +1034,9 @@ body.about section :nth-child(3n+2) a:nth-of-type(3n+3):hover:after {
   background-color: #7000e6;
   width: 100%;
 }
-@media (max-width: 56.25em) {
-  body.about section :nth-child(3n+2) a:nth-of-type(3n+3) {
-    white-space: normal;
-  }
-}
 body.about section :nth-child(3n+3) a:nth-of-type(3n+1) {
   color: #7000e6;
   position: relative;
-  white-space: nowrap;
 }
 body.about section :nth-child(3n+3) a:nth-of-type(3n+1):after {
   width: 0;
@@ -1047,15 +1058,9 @@ body.about section :nth-child(3n+3) a:nth-of-type(3n+1):hover:after {
   background-color: #7000e6;
   width: 100%;
 }
-@media (max-width: 56.25em) {
-  body.about section :nth-child(3n+3) a:nth-of-type(3n+1) {
-    white-space: normal;
-  }
-}
 body.about section :nth-child(3n+3) a:nth-of-type(3n+2) {
   color: #f32e71;
   position: relative;
-  white-space: nowrap;
 }
 body.about section :nth-child(3n+3) a:nth-of-type(3n+2):after {
   width: 0;
@@ -1077,15 +1082,9 @@ body.about section :nth-child(3n+3) a:nth-of-type(3n+2):hover:after {
   background-color: #f32e71;
   width: 100%;
 }
-@media (max-width: 56.25em) {
-  body.about section :nth-child(3n+3) a:nth-of-type(3n+2) {
-    white-space: normal;
-  }
-}
 body.about section :nth-child(3n+3) a:nth-of-type(3n+3) {
   color: #111111;
   position: relative;
-  white-space: nowrap;
 }
 body.about section :nth-child(3n+3) a:nth-of-type(3n+3):after {
   width: 0;
@@ -1107,11 +1106,6 @@ body.about section :nth-child(3n+3) a:nth-of-type(3n+3):hover:after {
   background-color: #111111;
   width: 100%;
 }
-@media (max-width: 56.25em) {
-  body.about section :nth-child(3n+3) a:nth-of-type(3n+3) {
-    white-space: normal;
-  }
-}
 .home,
 .notebook {
   display: table;
@@ -1122,7 +1116,6 @@ body.about section :nth-child(3n+3) a:nth-of-type(3n+3):hover:after {
 .notebook article :nth-child(3n+1) a:nth-of-type(3n+1) {
   color: #33cccc;
   position: relative;
-  white-space: nowrap;
 }
 .home section :nth-child(3n+1) a:nth-of-type(3n+1):after,
 .notebook section :nth-child(3n+1) a:nth-of-type(3n+1):after,
@@ -1150,21 +1143,12 @@ body.about section :nth-child(3n+3) a:nth-of-type(3n+3):hover:after {
   background-color: #33cccc;
   width: 100%;
 }
-@media (max-width: 56.25em) {
-  .home section :nth-child(3n+1) a:nth-of-type(3n+1),
-  .notebook section :nth-child(3n+1) a:nth-of-type(3n+1),
-  .home article :nth-child(3n+1) a:nth-of-type(3n+1),
-  .notebook article :nth-child(3n+1) a:nth-of-type(3n+1) {
-    white-space: normal;
-  }
-}
 .home section :nth-child(3n+1) a:nth-of-type(3n+2),
 .notebook section :nth-child(3n+1) a:nth-of-type(3n+2),
 .home article :nth-child(3n+1) a:nth-of-type(3n+2),
 .notebook article :nth-child(3n+1) a:nth-of-type(3n+2) {
   color: #be80ff;
   position: relative;
-  white-space: nowrap;
 }
 .home section :nth-child(3n+1) a:nth-of-type(3n+2):after,
 .notebook section :nth-child(3n+1) a:nth-of-type(3n+2):after,
@@ -1192,21 +1176,12 @@ body.about section :nth-child(3n+3) a:nth-of-type(3n+3):hover:after {
   background-color: #be80ff;
   width: 100%;
 }
-@media (max-width: 56.25em) {
-  .home section :nth-child(3n+1) a:nth-of-type(3n+2),
-  .notebook section :nth-child(3n+1) a:nth-of-type(3n+2),
-  .home article :nth-child(3n+1) a:nth-of-type(3n+2),
-  .notebook article :nth-child(3n+1) a:nth-of-type(3n+2) {
-    white-space: normal;
-  }
-}
 .home section :nth-child(3n+1) a:nth-of-type(3n+3),
 .notebook section :nth-child(3n+1) a:nth-of-type(3n+3),
 .home article :nth-child(3n+1) a:nth-of-type(3n+3),
 .notebook article :nth-child(3n+1) a:nth-of-type(3n+3) {
   color: #f32e71;
   position: relative;
-  white-space: nowrap;
 }
 .home section :nth-child(3n+1) a:nth-of-type(3n+3):after,
 .notebook section :nth-child(3n+1) a:nth-of-type(3n+3):after,
@@ -1234,21 +1209,12 @@ body.about section :nth-child(3n+3) a:nth-of-type(3n+3):hover:after {
   background-color: #f32e71;
   width: 100%;
 }
-@media (max-width: 56.25em) {
-  .home section :nth-child(3n+1) a:nth-of-type(3n+3),
-  .notebook section :nth-child(3n+1) a:nth-of-type(3n+3),
-  .home article :nth-child(3n+1) a:nth-of-type(3n+3),
-  .notebook article :nth-child(3n+1) a:nth-of-type(3n+3) {
-    white-space: normal;
-  }
-}
 .home section :nth-child(3n+2) a:nth-of-type(3n+1),
 .notebook section :nth-child(3n+2) a:nth-of-type(3n+1),
 .home article :nth-child(3n+2) a:nth-of-type(3n+1),
 .notebook article :nth-child(3n+2) a:nth-of-type(3n+1) {
   color: #f32e71;
   position: relative;
-  white-space: nowrap;
 }
 .home section :nth-child(3n+2) a:nth-of-type(3n+1):after,
 .notebook section :nth-child(3n+2) a:nth-of-type(3n+1):after,
@@ -1276,21 +1242,12 @@ body.about section :nth-child(3n+3) a:nth-of-type(3n+3):hover:after {
   background-color: #f32e71;
   width: 100%;
 }
-@media (max-width: 56.25em) {
-  .home section :nth-child(3n+2) a:nth-of-type(3n+1),
-  .notebook section :nth-child(3n+2) a:nth-of-type(3n+1),
-  .home article :nth-child(3n+2) a:nth-of-type(3n+1),
-  .notebook article :nth-child(3n+2) a:nth-of-type(3n+1) {
-    white-space: normal;
-  }
-}
 .home section :nth-child(3n+2) a:nth-of-type(3n+2),
 .notebook section :nth-child(3n+2) a:nth-of-type(3n+2),
 .home article :nth-child(3n+2) a:nth-of-type(3n+2),
 .notebook article :nth-child(3n+2) a:nth-of-type(3n+2) {
   color: #33cccc;
   position: relative;
-  white-space: nowrap;
 }
 .home section :nth-child(3n+2) a:nth-of-type(3n+2):after,
 .notebook section :nth-child(3n+2) a:nth-of-type(3n+2):after,
@@ -1318,21 +1275,12 @@ body.about section :nth-child(3n+3) a:nth-of-type(3n+3):hover:after {
   background-color: #33cccc;
   width: 100%;
 }
-@media (max-width: 56.25em) {
-  .home section :nth-child(3n+2) a:nth-of-type(3n+2),
-  .notebook section :nth-child(3n+2) a:nth-of-type(3n+2),
-  .home article :nth-child(3n+2) a:nth-of-type(3n+2),
-  .notebook article :nth-child(3n+2) a:nth-of-type(3n+2) {
-    white-space: normal;
-  }
-}
 .home section :nth-child(3n+2) a:nth-of-type(3n+3),
 .notebook section :nth-child(3n+2) a:nth-of-type(3n+3),
 .home article :nth-child(3n+2) a:nth-of-type(3n+3),
 .notebook article :nth-child(3n+2) a:nth-of-type(3n+3) {
   color: #be80ff;
   position: relative;
-  white-space: nowrap;
 }
 .home section :nth-child(3n+2) a:nth-of-type(3n+3):after,
 .notebook section :nth-child(3n+2) a:nth-of-type(3n+3):after,
@@ -1360,21 +1308,12 @@ body.about section :nth-child(3n+3) a:nth-of-type(3n+3):hover:after {
   background-color: #be80ff;
   width: 100%;
 }
-@media (max-width: 56.25em) {
-  .home section :nth-child(3n+2) a:nth-of-type(3n+3),
-  .notebook section :nth-child(3n+2) a:nth-of-type(3n+3),
-  .home article :nth-child(3n+2) a:nth-of-type(3n+3),
-  .notebook article :nth-child(3n+2) a:nth-of-type(3n+3) {
-    white-space: normal;
-  }
-}
 .home section :nth-child(3n+3) a:nth-of-type(3n+1),
 .notebook section :nth-child(3n+3) a:nth-of-type(3n+1),
 .home article :nth-child(3n+3) a:nth-of-type(3n+1),
 .notebook article :nth-child(3n+3) a:nth-of-type(3n+1) {
   color: #be80ff;
   position: relative;
-  white-space: nowrap;
 }
 .home section :nth-child(3n+3) a:nth-of-type(3n+1):after,
 .notebook section :nth-child(3n+3) a:nth-of-type(3n+1):after,
@@ -1402,21 +1341,12 @@ body.about section :nth-child(3n+3) a:nth-of-type(3n+3):hover:after {
   background-color: #be80ff;
   width: 100%;
 }
-@media (max-width: 56.25em) {
-  .home section :nth-child(3n+3) a:nth-of-type(3n+1),
-  .notebook section :nth-child(3n+3) a:nth-of-type(3n+1),
-  .home article :nth-child(3n+3) a:nth-of-type(3n+1),
-  .notebook article :nth-child(3n+3) a:nth-of-type(3n+1) {
-    white-space: normal;
-  }
-}
 .home section :nth-child(3n+3) a:nth-of-type(3n+2),
 .notebook section :nth-child(3n+3) a:nth-of-type(3n+2),
 .home article :nth-child(3n+3) a:nth-of-type(3n+2),
 .notebook article :nth-child(3n+3) a:nth-of-type(3n+2) {
   color: #f32e71;
   position: relative;
-  white-space: nowrap;
 }
 .home section :nth-child(3n+3) a:nth-of-type(3n+2):after,
 .notebook section :nth-child(3n+3) a:nth-of-type(3n+2):after,
@@ -1444,21 +1374,12 @@ body.about section :nth-child(3n+3) a:nth-of-type(3n+3):hover:after {
   background-color: #f32e71;
   width: 100%;
 }
-@media (max-width: 56.25em) {
-  .home section :nth-child(3n+3) a:nth-of-type(3n+2),
-  .notebook section :nth-child(3n+3) a:nth-of-type(3n+2),
-  .home article :nth-child(3n+3) a:nth-of-type(3n+2),
-  .notebook article :nth-child(3n+3) a:nth-of-type(3n+2) {
-    white-space: normal;
-  }
-}
 .home section :nth-child(3n+3) a:nth-of-type(3n+3),
 .notebook section :nth-child(3n+3) a:nth-of-type(3n+3),
 .home article :nth-child(3n+3) a:nth-of-type(3n+3),
 .notebook article :nth-child(3n+3) a:nth-of-type(3n+3) {
   color: #33cccc;
   position: relative;
-  white-space: nowrap;
 }
 .home section :nth-child(3n+3) a:nth-of-type(3n+3):after,
 .notebook section :nth-child(3n+3) a:nth-of-type(3n+3):after,
@@ -1486,14 +1407,6 @@ body.about section :nth-child(3n+3) a:nth-of-type(3n+3):hover:after {
   background-color: #33cccc;
   width: 100%;
 }
-@media (max-width: 56.25em) {
-  .home section :nth-child(3n+3) a:nth-of-type(3n+3),
-  .notebook section :nth-child(3n+3) a:nth-of-type(3n+3),
-  .home article :nth-child(3n+3) a:nth-of-type(3n+3),
-  .notebook article :nth-child(3n+3) a:nth-of-type(3n+3) {
-    white-space: normal;
-  }
-}
 body > section {
   width: 100%;
   display: table-cell;
@@ -1510,7 +1423,14 @@ article footer {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-  overflow: hidden;
+}
+article footer:before,
+article footer:after {
+  display: table;
+  content: "";
+}
+article footer:after {
+  clear: both;
 }
 article footer > div {
   width: 47.5%;
@@ -1548,7 +1468,6 @@ article footer ul > li {
 .notebook article footer ul li:nth-child(3n+1) a:nth-child(1) {
   color: #33cccc;
   position: relative;
-  white-space: nowrap;
 }
 .notebook article footer ul li:nth-child(3n+1) a:nth-child(1):after {
   width: 0;
@@ -1570,15 +1489,9 @@ article footer ul > li {
   background-color: #33cccc;
   width: 100%;
 }
-@media (max-width: 56.25em) {
-  .notebook article footer ul li:nth-child(3n+1) a:nth-child(1) {
-    white-space: normal;
-  }
-}
 .notebook article footer ul li:nth-child(3n+2) a:nth-child(1) {
   color: #be80ff;
   position: relative;
-  white-space: nowrap;
 }
 .notebook article footer ul li:nth-child(3n+2) a:nth-child(1):after {
   width: 0;
@@ -1600,15 +1513,9 @@ article footer ul > li {
   background-color: #be80ff;
   width: 100%;
 }
-@media (max-width: 56.25em) {
-  .notebook article footer ul li:nth-child(3n+2) a:nth-child(1) {
-    white-space: normal;
-  }
-}
 .notebook article footer ul li:nth-child(3n+3) a:nth-child(1) {
   color: #f32e71;
   position: relative;
-  white-space: nowrap;
 }
 .notebook article footer ul li:nth-child(3n+3) a:nth-child(1):after {
   width: 0;
@@ -1629,11 +1536,6 @@ article footer ul > li {
 .notebook article footer ul li:nth-child(3n+3) a:nth-child(1):hover:after {
   background-color: #f32e71;
   width: 100%;
-}
-@media (max-width: 56.25em) {
-  .notebook article footer ul li:nth-child(3n+3) a:nth-child(1) {
-    white-space: normal;
-  }
 }
 @media (max-width: 56.35em) {
   article footer {

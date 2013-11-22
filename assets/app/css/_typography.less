@@ -1,5 +1,9 @@
 html{
 	font: 300 15px/2em "museo-sans", arial, sans-serif;
+
+	@media @small {
+		font-size: 14px;
+	}
 }
 
 h1, h2, h3, h4, h5, h6, ul, ol, p, pre, address, time, blockquote, cite {
@@ -8,7 +12,7 @@ h1, h2, h3, h4, h5, h6, ul, ol, p, pre, address, time, blockquote, cite {
 
 h1, h2, h3, h4, h5, h6 {
 	word-spacing: -0.125em;
-	top: 5px;
+	top: 0.333rem;
 
 	+ p {
 		margin-top: 0;
@@ -16,30 +20,42 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1{
-	font-size: 60px;
-	top: 10px;
+	font-size: 4rem;
+	top: 0.666rem;
 	line-height: 1;
 }
 
 h2{
-	font-size:30px;
+	font-size: 2rem;
+
+	a {
+		white-space: normal;
+	}
 }
 
 h3{
-	font-size:20px;
-	line-height: 30px;
-	top: 8px;
+	font-size:1.333333333rem;
+	line-height: 2rem;
+	top: 0.533333333rem;
 }
 
 h4, h5, h6 {
 	font-size: 1rem;
-	top: 10px;
+	top: 0.666rem;
+}
+
+@media @small {
+	h1 { font-size: 3rem }
+	h2 { font-size: 1.332rem }
+	h3 { font-size: 0.887778em }
+	h1, h2, h3, h4, h5, h6 {
+		letter-spacing: normal;
+	}
 }
 
 h1, h2, h3, h4, h5, h6,
 p:first-child {
-	margin-top: 0;
-	margin-bottom: 0;
+	.v-margin(0);
 }
 
 h1:first-child + h2,
@@ -47,7 +63,7 @@ h2:first-child + h3,
 h3:first-child + h4,
 h4:first-child + h5 {
 	font-size: 1em;
-	top: 10px;
+	top: 0.666rem;
 }
 
 p,pre,address{
@@ -55,9 +71,8 @@ p,pre,address{
 }
 
 p, ul, ol {
-	margin-top: 2rem;
-	margin-bottom: 2rem;
-	top: 10px;
+	.v-margin(2rem);
+	top: 0.666rem;
 }
 
 h4,h5,h6,b,strong,caption,th,thead,dt,legend{font-weight:700;}
@@ -66,18 +81,18 @@ time {
 	font-style: italic;
 
 	+ * {
-		margin-bottom: 30px;
+		margin-bottom: 2rem;
 	}
 }
 
 blockquote {
-	.v-padding(30px);
+	.v-padding(2rem);
 }
 
 cite {
 	display: block;
 	text-align: right;
-	top: 5px;
+	top: 0.33rem;
 
 	&:before {
 		content: '\2014 ';
@@ -85,8 +100,8 @@ cite {
 }
 
 .meta {
-	font-size: 11px;
-	top: 11px;
+	font-size: 0.733333333rem;
+	top: 0.733333333rem;
 }
 
 // Code

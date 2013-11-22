@@ -9,6 +9,7 @@
 
 @static-url: '/assets/app/images/';
 @cursive: "Mahalia Regular", "mahalia", "Lucida Handwriting", Georgia, cursive;
+@small: ~"(max-width: 40em)";
 
 @-ms-viewport { width: device-width; }
 @-o-viewport { width: device-width; }
@@ -17,7 +18,6 @@
 .oldskool(@color) {
 	color: @color;
 	position: relative;
-	white-space: nowrap;
 
 	&:after {
 		.size(0, 2px);
@@ -34,9 +34,5 @@
 	&:hover:after {
 		background-color: @color;
 		width: 100%;
-	}
-
-	@media (max-width: 56.25em) {
-		white-space: normal;
 	}
 }

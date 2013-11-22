@@ -45,14 +45,29 @@ nav {
 		font-family: @cursive;
 		color: #fff;
 		position: relative;
-		right: 22px;
+		right: 1.6788em;
 		top: 1em;
 		zoom: 2;
 	}
 }
 
+@media @small {
+	body {
+		padding-left: 2em;
+	}
+
+	nav {
+		width: 2em;
+		line-height: 2em;
+
+		> a {
+			zoom: 1;
+		}
+	}
+}
+
 hgroup {
-	margin-bottom: 30px;
+	margin-bottom: 2rem;
 
 	h2 {
 		text-transform: lowercase;
@@ -99,7 +114,7 @@ blockquote {
 	margin: 0 auto;
 
 	p {
-		font: 700 30px/1em "museo-sans", arial, sans-serif;
+		font: 700 2rem/1em "museo-sans", arial, sans-serif;
 	}
 
 	cite {
@@ -142,7 +157,7 @@ blockquote {
 }
 
 aside {
-	.v-padding(30px);
+	.v-padding(2rem);
 
 	width: 100%;
 	background: #000;
@@ -156,7 +171,7 @@ time {
 figure {
 	.size(100%, 30rem);
 	overflow: hidden;
-	margin-bottom: 30px;
+	margin-bottom: 2rem;
 	
 	.billboard {
 		.size(200%);
@@ -211,8 +226,12 @@ hr {
 	border-bottom: 1px solid rgba(255,255,255,0.25);
 }
 
-p:first-child:last-child {
-	font-size: 30px;
+section > p:first-child:last-child {
+	font-size: 2rem;
 	line-height: 1.5;
 	color: #777;
+
+	a {
+		white-space: nowrap;
+	}
 }

@@ -912,7 +912,7 @@ body.about section :nth-child(3n+1) a:nth-of-type(3n+1):after {
   right: 0;
   background-color: transparent;
 }
-body.about section :nth-child(3n+1) a:nth-of-type(3n+1):hover:after {
+.no-touch body.about section :nth-child(3n+1) a:nth-of-type(3n+1):hover:after {
   background-color: #111111;
   width: 100%;
 }
@@ -936,7 +936,7 @@ body.about section :nth-child(3n+1) a:nth-of-type(3n+2):after {
   right: 0;
   background-color: transparent;
 }
-body.about section :nth-child(3n+1) a:nth-of-type(3n+2):hover:after {
+.no-touch body.about section :nth-child(3n+1) a:nth-of-type(3n+2):hover:after {
   background-color: #7000e6;
   width: 100%;
 }
@@ -960,7 +960,7 @@ body.about section :nth-child(3n+1) a:nth-of-type(3n+3):after {
   right: 0;
   background-color: transparent;
 }
-body.about section :nth-child(3n+1) a:nth-of-type(3n+3):hover:after {
+.no-touch body.about section :nth-child(3n+1) a:nth-of-type(3n+3):hover:after {
   background-color: #f32e71;
   width: 100%;
 }
@@ -984,7 +984,7 @@ body.about section :nth-child(3n+2) a:nth-of-type(3n+1):after {
   right: 0;
   background-color: transparent;
 }
-body.about section :nth-child(3n+2) a:nth-of-type(3n+1):hover:after {
+.no-touch body.about section :nth-child(3n+2) a:nth-of-type(3n+1):hover:after {
   background-color: #f32e71;
   width: 100%;
 }
@@ -1008,7 +1008,7 @@ body.about section :nth-child(3n+2) a:nth-of-type(3n+2):after {
   right: 0;
   background-color: transparent;
 }
-body.about section :nth-child(3n+2) a:nth-of-type(3n+2):hover:after {
+.no-touch body.about section :nth-child(3n+2) a:nth-of-type(3n+2):hover:after {
   background-color: #111111;
   width: 100%;
 }
@@ -1032,7 +1032,7 @@ body.about section :nth-child(3n+2) a:nth-of-type(3n+3):after {
   right: 0;
   background-color: transparent;
 }
-body.about section :nth-child(3n+2) a:nth-of-type(3n+3):hover:after {
+.no-touch body.about section :nth-child(3n+2) a:nth-of-type(3n+3):hover:after {
   background-color: #7000e6;
   width: 100%;
 }
@@ -1056,7 +1056,7 @@ body.about section :nth-child(3n+3) a:nth-of-type(3n+1):after {
   right: 0;
   background-color: transparent;
 }
-body.about section :nth-child(3n+3) a:nth-of-type(3n+1):hover:after {
+.no-touch body.about section :nth-child(3n+3) a:nth-of-type(3n+1):hover:after {
   background-color: #7000e6;
   width: 100%;
 }
@@ -1080,7 +1080,7 @@ body.about section :nth-child(3n+3) a:nth-of-type(3n+2):after {
   right: 0;
   background-color: transparent;
 }
-body.about section :nth-child(3n+3) a:nth-of-type(3n+2):hover:after {
+.no-touch body.about section :nth-child(3n+3) a:nth-of-type(3n+2):hover:after {
   background-color: #f32e71;
   width: 100%;
 }
@@ -1104,7 +1104,7 @@ body.about section :nth-child(3n+3) a:nth-of-type(3n+3):after {
   right: 0;
   background-color: transparent;
 }
-body.about section :nth-child(3n+3) a:nth-of-type(3n+3):hover:after {
+.no-touch body.about section :nth-child(3n+3) a:nth-of-type(3n+3):hover:after {
   background-color: #111111;
   width: 100%;
 }
@@ -1138,10 +1138,10 @@ body.about section :nth-child(3n+3) a:nth-of-type(3n+3):hover:after {
   right: 0;
   background-color: transparent;
 }
-.home section :nth-child(3n+1) a:nth-of-type(3n+1):hover:after,
-.notebook section :nth-child(3n+1) a:nth-of-type(3n+1):hover:after,
-.home article :nth-child(3n+1) a:nth-of-type(3n+1):hover:after,
-.notebook article :nth-child(3n+1) a:nth-of-type(3n+1):hover:after {
+.no-touch .home section :nth-child(3n+1) a:nth-of-type(3n+1):hover:after,
+.no-touch .notebook section :nth-child(3n+1) a:nth-of-type(3n+1):hover:after,
+.no-touch .home article :nth-child(3n+1) a:nth-of-type(3n+1):hover:after,
+.no-touch .notebook article :nth-child(3n+1) a:nth-of-type(3n+1):hover:after {
   background-color: #33cccc;
   width: 100%;
 }
@@ -1171,10 +1171,10 @@ body.about section :nth-child(3n+3) a:nth-of-type(3n+3):hover:after {
   right: 0;
   background-color: transparent;
 }
-.home section :nth-child(3n+1) a:nth-of-type(3n+2):hover:after,
-.notebook section :nth-child(3n+1) a:nth-of-type(3n+2):hover:after,
-.home article :nth-child(3n+1) a:nth-of-type(3n+2):hover:after,
-.notebook article :nth-child(3n+1) a:nth-of-type(3n+2):hover:after {
+.no-touch .home section :nth-child(3n+1) a:nth-of-type(3n+2):hover:after,
+.no-touch .notebook section :nth-child(3n+1) a:nth-of-type(3n+2):hover:after,
+.no-touch .home article :nth-child(3n+1) a:nth-of-type(3n+2):hover:after,
+.no-touch .notebook article :nth-child(3n+1) a:nth-of-type(3n+2):hover:after {
   background-color: #be80ff;
   width: 100%;
 }
@@ -1204,10 +1204,10 @@ body.about section :nth-child(3n+3) a:nth-of-type(3n+3):hover:after {
   right: 0;
   background-color: transparent;
 }
-.home section :nth-child(3n+1) a:nth-of-type(3n+3):hover:after,
-.notebook section :nth-child(3n+1) a:nth-of-type(3n+3):hover:after,
-.home article :nth-child(3n+1) a:nth-of-type(3n+3):hover:after,
-.notebook article :nth-child(3n+1) a:nth-of-type(3n+3):hover:after {
+.no-touch .home section :nth-child(3n+1) a:nth-of-type(3n+3):hover:after,
+.no-touch .notebook section :nth-child(3n+1) a:nth-of-type(3n+3):hover:after,
+.no-touch .home article :nth-child(3n+1) a:nth-of-type(3n+3):hover:after,
+.no-touch .notebook article :nth-child(3n+1) a:nth-of-type(3n+3):hover:after {
   background-color: #f32e71;
   width: 100%;
 }
@@ -1237,10 +1237,10 @@ body.about section :nth-child(3n+3) a:nth-of-type(3n+3):hover:after {
   right: 0;
   background-color: transparent;
 }
-.home section :nth-child(3n+2) a:nth-of-type(3n+1):hover:after,
-.notebook section :nth-child(3n+2) a:nth-of-type(3n+1):hover:after,
-.home article :nth-child(3n+2) a:nth-of-type(3n+1):hover:after,
-.notebook article :nth-child(3n+2) a:nth-of-type(3n+1):hover:after {
+.no-touch .home section :nth-child(3n+2) a:nth-of-type(3n+1):hover:after,
+.no-touch .notebook section :nth-child(3n+2) a:nth-of-type(3n+1):hover:after,
+.no-touch .home article :nth-child(3n+2) a:nth-of-type(3n+1):hover:after,
+.no-touch .notebook article :nth-child(3n+2) a:nth-of-type(3n+1):hover:after {
   background-color: #f32e71;
   width: 100%;
 }
@@ -1270,10 +1270,10 @@ body.about section :nth-child(3n+3) a:nth-of-type(3n+3):hover:after {
   right: 0;
   background-color: transparent;
 }
-.home section :nth-child(3n+2) a:nth-of-type(3n+2):hover:after,
-.notebook section :nth-child(3n+2) a:nth-of-type(3n+2):hover:after,
-.home article :nth-child(3n+2) a:nth-of-type(3n+2):hover:after,
-.notebook article :nth-child(3n+2) a:nth-of-type(3n+2):hover:after {
+.no-touch .home section :nth-child(3n+2) a:nth-of-type(3n+2):hover:after,
+.no-touch .notebook section :nth-child(3n+2) a:nth-of-type(3n+2):hover:after,
+.no-touch .home article :nth-child(3n+2) a:nth-of-type(3n+2):hover:after,
+.no-touch .notebook article :nth-child(3n+2) a:nth-of-type(3n+2):hover:after {
   background-color: #33cccc;
   width: 100%;
 }
@@ -1303,10 +1303,10 @@ body.about section :nth-child(3n+3) a:nth-of-type(3n+3):hover:after {
   right: 0;
   background-color: transparent;
 }
-.home section :nth-child(3n+2) a:nth-of-type(3n+3):hover:after,
-.notebook section :nth-child(3n+2) a:nth-of-type(3n+3):hover:after,
-.home article :nth-child(3n+2) a:nth-of-type(3n+3):hover:after,
-.notebook article :nth-child(3n+2) a:nth-of-type(3n+3):hover:after {
+.no-touch .home section :nth-child(3n+2) a:nth-of-type(3n+3):hover:after,
+.no-touch .notebook section :nth-child(3n+2) a:nth-of-type(3n+3):hover:after,
+.no-touch .home article :nth-child(3n+2) a:nth-of-type(3n+3):hover:after,
+.no-touch .notebook article :nth-child(3n+2) a:nth-of-type(3n+3):hover:after {
   background-color: #be80ff;
   width: 100%;
 }
@@ -1336,10 +1336,10 @@ body.about section :nth-child(3n+3) a:nth-of-type(3n+3):hover:after {
   right: 0;
   background-color: transparent;
 }
-.home section :nth-child(3n+3) a:nth-of-type(3n+1):hover:after,
-.notebook section :nth-child(3n+3) a:nth-of-type(3n+1):hover:after,
-.home article :nth-child(3n+3) a:nth-of-type(3n+1):hover:after,
-.notebook article :nth-child(3n+3) a:nth-of-type(3n+1):hover:after {
+.no-touch .home section :nth-child(3n+3) a:nth-of-type(3n+1):hover:after,
+.no-touch .notebook section :nth-child(3n+3) a:nth-of-type(3n+1):hover:after,
+.no-touch .home article :nth-child(3n+3) a:nth-of-type(3n+1):hover:after,
+.no-touch .notebook article :nth-child(3n+3) a:nth-of-type(3n+1):hover:after {
   background-color: #be80ff;
   width: 100%;
 }
@@ -1369,10 +1369,10 @@ body.about section :nth-child(3n+3) a:nth-of-type(3n+3):hover:after {
   right: 0;
   background-color: transparent;
 }
-.home section :nth-child(3n+3) a:nth-of-type(3n+2):hover:after,
-.notebook section :nth-child(3n+3) a:nth-of-type(3n+2):hover:after,
-.home article :nth-child(3n+3) a:nth-of-type(3n+2):hover:after,
-.notebook article :nth-child(3n+3) a:nth-of-type(3n+2):hover:after {
+.no-touch .home section :nth-child(3n+3) a:nth-of-type(3n+2):hover:after,
+.no-touch .notebook section :nth-child(3n+3) a:nth-of-type(3n+2):hover:after,
+.no-touch .home article :nth-child(3n+3) a:nth-of-type(3n+2):hover:after,
+.no-touch .notebook article :nth-child(3n+3) a:nth-of-type(3n+2):hover:after {
   background-color: #f32e71;
   width: 100%;
 }
@@ -1402,10 +1402,10 @@ body.about section :nth-child(3n+3) a:nth-of-type(3n+3):hover:after {
   right: 0;
   background-color: transparent;
 }
-.home section :nth-child(3n+3) a:nth-of-type(3n+3):hover:after,
-.notebook section :nth-child(3n+3) a:nth-of-type(3n+3):hover:after,
-.home article :nth-child(3n+3) a:nth-of-type(3n+3):hover:after,
-.notebook article :nth-child(3n+3) a:nth-of-type(3n+3):hover:after {
+.no-touch .home section :nth-child(3n+3) a:nth-of-type(3n+3):hover:after,
+.no-touch .notebook section :nth-child(3n+3) a:nth-of-type(3n+3):hover:after,
+.no-touch .home article :nth-child(3n+3) a:nth-of-type(3n+3):hover:after,
+.no-touch .notebook article :nth-child(3n+3) a:nth-of-type(3n+3):hover:after {
   background-color: #33cccc;
   width: 100%;
 }
@@ -1487,7 +1487,7 @@ article footer ul > li {
   right: 0;
   background-color: transparent;
 }
-.notebook article footer ul li:nth-child(3n+1) a:nth-child(1):hover:after {
+.no-touch .notebook article footer ul li:nth-child(3n+1) a:nth-child(1):hover:after {
   background-color: #33cccc;
   width: 100%;
 }
@@ -1511,7 +1511,7 @@ article footer ul > li {
   right: 0;
   background-color: transparent;
 }
-.notebook article footer ul li:nth-child(3n+2) a:nth-child(1):hover:after {
+.no-touch .notebook article footer ul li:nth-child(3n+2) a:nth-child(1):hover:after {
   background-color: #be80ff;
   width: 100%;
 }
@@ -1535,7 +1535,7 @@ article footer ul > li {
   right: 0;
   background-color: transparent;
 }
-.notebook article footer ul li:nth-child(3n+3) a:nth-child(1):hover:after {
+.no-touch .notebook article footer ul li:nth-child(3n+3) a:nth-child(1):hover:after {
   background-color: #f32e71;
   width: 100%;
 }

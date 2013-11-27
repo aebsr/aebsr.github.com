@@ -23,6 +23,10 @@
           duration : 1500,
           persistent : false
       });
+
+      if (!("ontouchstart" in document.documentElement)) {
+        document.documentElement.className += " no-touch";
+      }
     </script>
 
     <script type="text/javascript">

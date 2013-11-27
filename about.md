@@ -5,10 +5,10 @@ permalink: /about/
 body_class: about
 ---
 
-<hgroup>
+<header>
     <h1>Antoine Butler</h1>
     <h2><abbr title="User Experience">UX</abbr> Designer &amp; Developer</h2>
-</hgroup>
+</header>
 
 ### A.S.L.
 
@@ -16,7 +16,7 @@ An '80s baby and male, hailing from the DMV. That's <abbr title="District of Col
 
 <figure>
     <div class="billboard">
-        <img src="/assets/app/images/antoine-butler.jpg" itemprop="image" />
+        <img alt="Antoine pictured in the HZDG office, on his 2 year anniversary at the company." src="/assets/app/images/antoine-butler.jpg" itemprop="image" />
     </div>
 </figure>
 

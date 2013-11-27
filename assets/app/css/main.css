@@ -440,10 +440,12 @@ nav > a {
     zoom: 1;
   }
 }
-hgroup {
+hgroup,
+header {
   margin-bottom: 2rem;
 }
-hgroup h2 {
+hgroup h2,
+header h2 {
   text-transform: lowercase;
 }
 a {

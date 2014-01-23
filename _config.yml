@@ -2,7 +2,7 @@ title:        aeb.sr
 tagline:      'Code. Pixels. Words.'
 description:  'Opinionated dapper developer, promoting diversity in tech.'
 # Omit trailing slashes from your site url
-# url:          http://aeb.sr
+url:          http://aeb.sr
 author:
   name:       'Antoine Butler'
   bio:        'A designer, developer and musician working for <a href="http://hzdg.com">HZ</a>. His opinions are his own, and often offend. <a href="mailto:antoinebsr@gmail.com?subject=Hi">Say Hi.</a>'

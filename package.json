@@ -1,13 +1,13 @@
 {
-  "name": "labs-jekyll-theme",
+  "name": "lucid-jekyll-theme",
   "author": "Antoine Butler <antoinebsr@gmail.com>",
-  "homepage": "http://hzdg.github.io/labs-jekyll-theme",
+  "homepage": "http://aebsr.github.io/lucid-jekyll-theme",
   "repository": {
     "type": "git",
-    "url": "git://github.com/hzdg/labs-jekyll-theme.git"
+    "url": "git://github.com/aebsr/lucid-jekyll-theme.git"
   },
   "bugs": {
-    "url": "https://github.com/hzdg/labs-jekyll-theme/issues"
+    "url": "https://github.com/aebsr/lucid-jekyll-theme/issues"
   },
   "engines": {
     "node": "~0.10.15",
@@ -17,12 +17,8 @@
     "bower": "~0.10.0",
     "grunt": "~0.4.1",
     "grunt-contrib-watch": "~0.5.2",
-    "grunt-contrib-coffee": "~0.7.0",
-    "grunt-contrib-less": "~0.7.0",
     "grunt-cli": "~0.1.9",
-    "grunt-csso": "~0.5.0",
-    "grunt-concurrent": "~0.3.1",
-    "grunt-jekyll": "~0.3.9",
-    "grunt-bump": "~0.0.11"
+    "grunt-bump": "~0.0.11",
+    "grunt-autoprefixer": "~0.6.4"
   }
 }

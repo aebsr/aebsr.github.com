@@ -6,36 +6,20 @@ module.exports = (grunt) ->
   # Project configuration.
   grunt.initConfig
     pkg: grunt.file.readJSON 'package.json'
-    less:
-      compile:
-        files:
-          'assets/app/css/main.css': 'assets/app/css/main.less'
-    jekyll:
-      server:
-        server: true
-        server_port: 4000
-        exclude: ['node_modules']
-        watch: true
     watch:
       options:
         atBegin: true
-      less:
-        files: ['assets/app/css/*.less']
-        tasks: ['less']
-    concurrent:
-      target:
-        tasks: ['jekyll:server', 'watch']
-        options:
-          logConcurrentOutput: true
+      autoprefixer:
+        files: ['assets/css/*.css']
+        tasks: ['autoprefixer']
+    autoprefixer:
+      site:
+        src: 'assets/css/site.css'
 
   # Load grunt plugins
   grunt.loadNpmTasks 'grunt-contrib-watch'
-  grunt.loadNpmTasks 'grunt-contrib-less'
-  grunt.loadNpmTasks 'grunt-contrib-coffee'
-  grunt.loadNpmTasks 'grunt-concurrent'
-  grunt.loadNpmTasks 'grunt-jekyll'
+  grunt.loadNpmTasks 'grunt-autoprefixer'
 
   # Define tasks.
-  grunt.registerTask 'dev', ['concurrent:target']
-  grunt.registerTask 'build', ['less']
-  grunt.registerTask 'default', ['dev']
+  grunt.registerTask 'default', ['watch']
+  grunt.registerTask 'prefix', ['autoprefixer']

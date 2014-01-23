@@ -20,6 +20,6 @@ Then there's the trust factor. Did I, the original sender, email everyone? Or, j
 > You're heartless, don't call again.
 > Don't email, we can't be friends.
 > I swear that this is the end
-<cite>[My Girls](http://rapgenius.com/Childish-gambino-my-girls-lyrics)</cite>
+> *[My Girls](http://rapgenius.com/Childish-gambino-my-girls-lyrics)*
 
 I'm sure I'm not the only person to do this. But then again, I've received about 50 Reply All emails this week. *Happy sending.*

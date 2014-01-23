@@ -8,7 +8,7 @@ description: "The semantic web continues to be relevant and perhaps more importa
 This past Saturday marked the 7th annual Blue Beanie Day [#BBD13](https://twitter.com/search?q=%23BBD13&src=hash). A day meant to celebrate web standards, it's practitioners as well as the man and book that showed us all the promise land. [Jeffrey Zeldman](http://www.zeldman.com/)'s [Designing With Web Standards](http://en.wikipedia.org/wiki/Designing_with_Web_Standards) (DWWS).
 
 > Boys II Men, ABC, BBD... Never skipped a beat
-<cite>[Motown Philly](http://www.metrolyrics.com/motownphilly-lyrics-boyz-ii-men.html)</cite>
+> *[Motown Philly](http://www.metrolyrics.com/motownphilly-lyrics-boyz-ii-men.html)*
 
 I got my hands on the book in 2005. It motivated me to abandon tables and flash as my tools of choice. This new adoration for the semantic web lead me to embrace find-ability and accessibility as well. The skills, techniques and methodologies that DWWS exposed me to are what has gotten me to where I am today. I went from making niche sites that served very specific and diminutive audiences to running the development efforts of a non partisan, private think tank seemingly overnight.
 

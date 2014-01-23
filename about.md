@@ -1,30 +1,22 @@
 ---
 layout: page
-title: About Antoine
-permalink: /about/
-body_class: about
+title: About Me
+description: "Antoine Butler Sr - designer, developer, musician."
 ---
 
-<header>
-    <h1>Antoine Butler</h1>
-    <h2><abbr title="User Experience">UX</abbr> Designer &amp; Developer</h2>
-</header>
+An ’80s baby and male, hailing from the DMV. That’s D.C. by birth, Maryland by choice and Virginia by hell or high water.
 
-### A.S.L.
+## Conference Bio
 
-An '80s baby and male, hailing from the DMV. That's <abbr title="District of Columbia">D.C.</abbr> by birth, Maryland by choice and Virginia by hell or high water.
+Antoine Butler has 12 years experience in marketing, web design and development. He serves as a Senior Front End Developer at [HZ](http://hzdg.com). There are few things beyond family, music and the web that Antoine is passionate about.
 
-<figure>
-    <div class="billboard">
-        <img alt="Antoine pictured in the HZDG office, on his 2 year anniversary at the company." src="/assets/app/images/antoine-butler.jpg" itemprop="image" />
-    </div>
-</figure>
+## The Resume
 
-I'm happily employed as a Senior <abbr title="Front End Developer">FED</abbr> at [HZDG](http://hzdg.com). Before that, I was a contact developer for AKQA, where I helped build accessible front-end assets for the redesigned USPS.com. Before that, I freelanced for 2 years, working with agencies such as [nclud](http://nclud.com), [EightShapes](http://eightshapes.com) and [Probonafide](http://probonafide.com), as well as startups like [Personal](http://personal.com), [TravelShark](http://travelshark.com) and [PaySimple](http://paysimple.com). Before that, I managed web teams and websites for [The Performance Institute](http://www.performanceinstitute.org/) and **The Federal Highway Admistration**... AND BEFORE THAT, I freelanced for another 3 years, working with some rediculously talented creatives.
+I've managed creative teams at The Federal Highway Administration and The Performance Institute. Worked for startups including [Personal](http://personal.com), [TravelShark](http://travelshark.com) and [PaySimple](http://paysimple.com). I've worked with agencies such as [AKQA](http://akqa.com), [nclud](http://nclud.com), [EightShapes](http://eightshapes.com) and [Probonafide](http://probonafide.com).
 
-Larger brands that I've worked with have included [Washington Redskins](http://www.hzdg.com/work/redskins/), **Volkswagen**, [King Arthur Flour](http://www.hzdg.com/work/king-arthur), **Webex** and **Hilton**.
+Larger brands that I've worked with have included [Washington Redskins](http://www.hzdg.com/work/redskins/), Volkswagen, [King Arthur Flour](http://www.hzdg.com/work/king-arthur), Webex and [Hilton](http://hzdg.tumblr.com/post/63650525553/hilton-hotels-resorts-hilton-hotels-resorts).
 
-### Outside of Work
+## Outside of Work
 
 My wife and kids keep me very busy. Between soccer, karate, gymnastics and diapers, I try to fit in at least one date night every other week.
 

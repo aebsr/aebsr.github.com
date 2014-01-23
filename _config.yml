@@ -1,18 +1,16 @@
-auto: true
-server: true
-permalink: /notebook/:title
-
-title: aeb.sr
-description: "Antoine Butler's collection of code, pixels and words."
-
-url: aeb.sr
-rootUrl: http://aeb.sr
-
-include: [".htaccess"]
-exclude: ["less", "coffee", "*.sublime-project", "*.sublime-workspace", "package.json", "node_modules"]
-
-pygments:    true
-markdown:    kramdown
+title:        aeb.sr
+tagline:      'Code. Pixels. Words.'
+description:  'Opinionated dapper developer, promoting diversity in tech.'
+# Omit trailing slashes from your site url
+# url:          http://aeb.sr
+author:
+  name:       'Antoine Butler'
+  bio:        'A designer, developer and musician working for <a href="http://hzdg.com">HZ</a>. His opinions are his own, and often offend. <a href="mailto:antoinebsr@gmail.com?subject=Hi">Say Hi.</a>'
+  email:      'antoinebsr@gmail.com'
+permalink:    pretty
+pygments:     true
+markdown:     redcarpet
+paginate:     99
 
 kramdown:
   auto_ids: true
@@ -27,3 +25,16 @@ kramdown:
     coderay_tab_width: 4
     coderay_bold_every: 10
     coderay_css: class
+
+links:
+  - title: About
+    url: /about
+  - title: Twitter
+    url: http://twitter.com/aebsr
+    external: true
+  - title: Github
+    url: http://github.com/aebsr
+    external: true
+  - title: LinkedIn
+    url: http://www.linkedin.com/in/aebsr
+    external: true

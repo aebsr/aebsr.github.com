@@ -9,7 +9,7 @@ This just in: Blogging is hard. What's even harder, is not being more involved i
 
 > My Name Is Antoine!
 > A-to-the-E-B. I used to push pixels by the O-Z.
-<cite>[Public Service Announcement](http://rapgenius.com/Jay-z-public-service-announcement-lyrics#note-25179) [derivative]</cite>
+> *[Public Service Announcement](http://rapgenius.com/Jay-z-public-service-announcement-lyrics#note-25179) [derivative]*
 
 And that, is an obligatory rap reference. You can expect at least one of those, in context, per post.
 

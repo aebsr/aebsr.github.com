@@ -1,4 +1,5 @@
 @import '../vendor/normalize-css/normalize.css';
+@import 'pygments.css';
 
 /*
   Base Styles
@@ -12,7 +13,12 @@
       Footer
     Navigation
     Footer
+  Pagination
   Nav States
+  Small Form Adjustments
+  Medium Form Adjustments
+  Large Form Adjustments
+  Code
 */
 
 /*
@@ -314,6 +320,44 @@ article footer h6 {
 }
 
 /*
+  Pagination
+  =========================================================================
+*/
+
+#pagination {
+  padding-top: 3.75em;
+  padding-bottom: 3.75em;
+  overflow: hidden;
+}
+
+#pagination a {
+  font-size: 2em;
+  display: block;
+  width: 48.75%;
+  background: #ddd;
+  height: 2em;
+  line-height: 1.5;
+  color: #fefefe;
+  padding: 0.25em 0.5em;
+  text-align: center;
+  float: left;
+  font-weight: 700;
+}
+
+#pagination a:hover {
+  background: #008A99;
+  text-decoration: none;
+}
+
+#pagination .newer {
+  float: right;
+}
+
+#pagination .newer:hover {
+  background: #BF4584;
+}
+
+/*
   Navigation
   =========================================================================
 */
@@ -367,6 +411,11 @@ article footer h6 {
   backface-visibility: hidden;
 }
 
+/*
+  Small Form Adjustments
+  =========================================================================
+*/
+
 @media (max-width: 21.176470588em) {
   [data-menu-state="open"] #skip-to-nav,
   [data-menu-state="open"] #header,
@@ -377,17 +426,8 @@ article footer h6 {
     transform: translate(15rem, 0);
   }
 
-  #main {
-    /*padding-bottom: 0;*/
-  }
-
   #skip-to-nav {
     opacity: 0.25;
-  }
-
-  #main, #footer {
-    padding-left: 1em;
-    padding-right: 1em;
   }
 
   #bio, #share {
@@ -409,4 +449,59 @@ article footer h6 {
   #share a {
     text-align: center;
   }
+}
+
+/*
+  Medium Form Adjustments
+  =========================================================================
+*/
+
+@media (max-width: 35em) {
+  #main, #footer {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+
+  #pagination a {
+    font-size: 1.5em;
+  }
+}
+
+/*
+  Large Form Adjustments
+  =========================================================================
+*/
+
+@media (min-width: 59.5em) {
+  #skip-to-nav {
+    display: none;
+  }
+
+  #header {
+    -webkit-transform: translate(17rem, 0);
+    -ms-transform: translate(17rem, 0);
+    transform: translate(17rem, 0);
+    -webkit-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+
+  body {
+    padding-left: 17em;
+  }
+}
+
+/*
+  Code
+  =========================================================================
+*/
+
+pre {
+  overflow: scroll;
+}
+
+code {
+  font-size: 0.75em;
+  white-space: pre;
+  font-family: Consolas, Monaco, "Lucida Console", "Courier New";
 }

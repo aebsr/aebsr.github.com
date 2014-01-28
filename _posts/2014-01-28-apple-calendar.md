@@ -22,3 +22,10 @@ If GitHub is more your speed, I've posted the code as a [Gist](https://gist.gith
 
 > All you cats can fine your damages I'm smashin' the song /
 Plus your s&!t is outdated like the calendar's wrong, boy *[Capital Steez](http://rapgenius.com/Capital-steez-capital-steez-lyrics)*
+
+### Update
+
+<blockquote class="twitter-tweet" data-conversation="none" data-cards="hidden" lang="en"><p><a href="https://twitter.com/aebsr">@aebsr</a> To solve the calendar bullet color, you could nix the list-style-type and use :before with color:inherit :) <a href="http://t.co/zZPE4QzzI4">http://t.co/zZPE4QzzI4</a></p>&mdash; Tony Stuck (@toekneestuck) <a href="https://twitter.com/toekneestuck/statuses/428200403423870976">January 28, 2014</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+[Forked](http://codepen.io/aebsr/pen/FDLJl)

@@ -17,7 +17,7 @@ I thought I’d share some pictures and shout outs to those who supported GAC fr
 
 * [Martin Ringlein](https://twitter.com/smarty)
 * [Javier Rios](https://twitter.com/javierios)
-* [Russel Heimlich](https://twitter.com/kingkool68)
+* [Russell Heimlich](https://twitter.com/kingkool68)
 * [John F Croston III](https://twitter.com/jfc3)
 * Alexa Raducanu & [Opower](https://twitter.com/opower)
 * [Chris Eldredge](https://twitter.com/creldredge)

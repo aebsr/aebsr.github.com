@@ -7,7 +7,7 @@ description: "Geeks’ Adventure Club: It was a fun run and a slow death for the
 
 ![](/assets/media/gacdc-welcome.jpg)
 
-Hard to believe that 5 years ago Andrew, Corey and I — collectively known as “The Board of Awesome” — started the Geeks’ Adventure Club. The idea was simple: Get designers, developers, marketers and strategists in the [#dctech](https://twitter.com/search?q=%23dctech&src=hash) community to leave their computers and get outdoors. Our events were about the adventure, not the work. We never had “talks” and rarely talked “shop.”
+Hard to believe that 5 years ago [Andrew](http://twitter.com/andrewcohen), [Corey](http://twitter.com/blanksky) and [I](http://twitter.com/aebsr) — collectively known as “The Board of Awesome” — started the Geeks’ Adventure Club. The idea was simple: Get designers, developers, marketers and strategists in the [#dctech](https://twitter.com/search?q=%23dctech&src=hash) community to leave their computers and get outdoors. Our events were about the adventure, not the work. We never had “talks” and rarely talked “shop.”
 
 After the first year, Andrew moved to Colorado, leaving Corey and I to keep the GAC alive. Turns out, running a fledgling meetup is no simple task — especially for two working dads. And then, Corey and I took on new, more demanding positions. By 2013, the club was on life support. Over the course of the entire year, we had only organized our yearly ski trip.
 

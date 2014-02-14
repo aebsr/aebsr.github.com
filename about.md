@@ -6,7 +6,7 @@ description: "Antoine Butler Sr - designer, developer, musician."
 
 An ’80s baby and male, hailing from the DMV. That’s D.C. by birth, Maryland by choice and Virginia by hell or high water.
 
-## Conference Bio
+## Short-form Bio
 
 Antoine Butler has 12 years experience in marketing, web design and development. He serves as a Senior Front End Developer at [HZ](http://hzdg.com). There are few things beyond family, music and the web that Antoine is passionate about.
 

@@ -26,4 +26,4 @@ On the rare ocassion I'm not otherwise committed, I'll spend my time making musi
 
 ### Need More?
 
-Ping me on [LinkedIn](http://www.linkedin.com/in/aebsr) if you're not a recruiter, or follow me on [Twitter](http://twitter.com/aebsr), where I'm most active online.
+Ping me on [LinkedIn](http://www.linkedin.com/in/aebsr) if you're not a recruiter, follow me on [Twitter](http://twitter.com/aebsr), where I'm most active online or be a fly on my musical wall on [rdio](http://www.rdio.com/people/aebsr/).

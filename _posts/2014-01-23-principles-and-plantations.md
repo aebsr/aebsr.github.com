@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Principles and Plantations
-tags: [community, industry, diversity, speaking]
+tags: [community, industry, diversity, speaking, cssconf]
 description: "Tech conferences tend to be a bit culturaly void, but was a cultural gut check in order for CSSConf?"
 ---
 

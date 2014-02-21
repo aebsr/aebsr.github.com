@@ -14,7 +14,7 @@ Antoine Butler has 12 years experience in marketing, web design and development.
 
 I've managed creative teams at The Federal Highway Administration and The Performance Institute. Worked for startups including [Personal](http://personal.com), [TravelShark](http://travelshark.com) and [PaySimple](http://paysimple.com). I've worked with agencies such as [AKQA](http://akqa.com), [nclud](http://nclud.com), [EightShapes](http://eightshapes.com) and [Probonafide](http://probonafide.com).
 
-Larger brands that I've worked with have included [Washington Redskins](http://www.hzdg.com/work/redskins/), Volkswagen, [King Arthur Flour](http://www.hzdg.com/work/king-arthur), Webex and [Hilton](http://hzdg.tumblr.com/post/63650525553/hilton-hotels-resorts-hilton-hotels-resorts).
+Larger brands that I've worked with have included [Washington Redskins](http://www.hzdg.com/work/redskins/), Volkswagen, [King Arthur Flour](http://www.hzdg.com/work/king-arthur), Webex, [Hilton](http://hzdg.tumblr.com/post/63650525553/hilton-hotels-resorts-hilton-hotels-resorts) and [USPS](http://usps.com).
 
 ## Outside of Work
 

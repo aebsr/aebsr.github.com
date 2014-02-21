@@ -18,7 +18,7 @@ The plan is to discuss opportunities, risks and the potential future of height -
 
 I’ve discussed ideas, concepts and code over lunch. I’ve walked others through tricky CSS problems and browser inconsistencies. I’ve spoken in front of  the design and development teams at [HZ](http://hzdg.com/). I have not, however, done [this](http://weareallaweso.me/for_speakers/index.html): stand in front of strangers in an attempt to educate, persuade and encourage discussion.
 
-That said, the bulk of what I hope to discuss is outlined. Prototypes, websites and use cases are plentiful. I was surprised when CSSConf announced my talk, and attendees  requested specific issues for me to address. Though I can’t promise I can get to them all, I’d love for you to [join the conversation](https://ti.to/jsconf-us/cssconf-us-2014).
+That said, the bulk of what I hope to discuss is outlined. Prototypes, websites and use cases are plentiful. I was surprised when CSSConf announced my talk, and attendees  requested specific issues for me to address. Though I can’t promise I can get to them all, I’d love for you to [join the conversation](https://ti.to/jsconf-us/cssconf-us-2014) this May 27th.
 
 ### Wisdom Imparted
 

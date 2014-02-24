@@ -18,14 +18,10 @@ markdown:     kramdown
 paginate:     6
 
 links:
+  - title: Blog
+    url: /
   - title: About
     url: /about
   - title: Twitter
     url: http://twitter.com/aebsr
-    external: true
-  - title: Github
-    url: http://github.com/aebsr
-    external: true
-  - title: LinkedIn
-    url: http://www.linkedin.com/in/aebsr
     external: true

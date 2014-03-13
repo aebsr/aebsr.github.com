@@ -20,6 +20,8 @@ paginate:     6
 links:
   - title: Blog
     url: /
+  - title: Elsewhere
+    url: /elsewhere/
   - title: About
     url: /about
   - title: Twitter

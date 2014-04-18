@@ -15,7 +15,7 @@ I saw a series of tweets from developers and designers reminiscing over so much 
 
 Back in 2002 I started working on small websites for local musicians. My work was amateurish and I have no shame in saying so. Although there was one thing that stood out about those first few websites. They were my most creatively freeing projects since I started designing websites.
 
-3 years later I founded [1M <strike>Media</strike>Creative](http://unmatchedstyle.com/gallery/1mcreativecom.php) and focused on working with associations and start-ups to develop and maintain their online presence.
+3 years later I founded [1M <strike>Media</strike> Creative](http://unmatchedstyle.com/gallery/1mcreativecom.php) and focused on working with associations and start-ups to develop and maintain their online presence.
 
 At some point, I downloaded the wrong piece of freeware and found my computer out of order. In a rush to get it up amd running as soon as possible, I wiped the drives. Completely. Only after install my needed software and setting my email up did I realize what I had done.
 

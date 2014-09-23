@@ -9,7 +9,7 @@ A collection of things I've written and made elsewhere online.
 - ## [Net Magazine](http://www.creativebloq.com/netmag/issue-258-81412615)
   Walking through some tips on using vertical media queries.
 - ## [Embrace The Vertical](http://2014.cssconf.com/)
-  I'll be speaking at CSS Conf in May 2014
+  Speaking engagement at CSS Conf, May 2014
 - ## [Lucid Jekyll Theme](http://aeb.sr/lucid-jekyll-theme/)
   A simple, content first Jekyll theme.
 - ## [Git Checkout Orphan](https://coderwall.com/p/k7h0ma)

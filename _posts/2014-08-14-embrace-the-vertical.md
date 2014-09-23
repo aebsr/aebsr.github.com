@@ -11,6 +11,7 @@ lack some animation, but you should get the point)
 
 <div class="video hd"><iframe width="853" height="480" src="//www.youtube.com/embed/rNoMgCn4E-U?rel=0" frameborder="0" allowfullscreen></iframe></div>
 
+**[Update]** The demo used in my presentation has launched and can be found at [vwserviceandparts.com](http://www.vwserviceandparts.com/). Checkout out the vertically responsive navigation.
 
 ### Lessons Learned
 

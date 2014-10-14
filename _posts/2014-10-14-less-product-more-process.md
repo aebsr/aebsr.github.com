@@ -27,6 +27,6 @@ At some point, I became afraid to fail. Or worse, afraid to try. I could blame m
 
 ## To The Makers
 
-Here's to caring less abut the end products. The stories no one reads. The songs no one listens to. The applications only I use. The shirts no one buys. Here's to the pleasure found in putting pen to paper. Here's to the camaraderie in the studio with friends. Here's to the tiny applications I use every day. Here's to the t-shirt that I'll buy 20 of just to see it printed.
+Here's to caring less about the end products. The stories no one reads. The songs no one listens to. The applications only I use. The shirts no one buys. Here's to the pleasure found in putting pen to paper. Here's to the camaraderie in the studio with friends. Here's to the tiny applications I use every day. Here's to the t-shirt that I'll buy 20 of just to see it printed.
 
 From here on, I'll make an effort to release whatever I make. Readiness is relative. I will create for the sake of creation. Because the process is the story, and the product a footnote.

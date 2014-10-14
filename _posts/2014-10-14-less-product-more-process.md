@@ -2,7 +2,7 @@
 layout: post
 title: Less Product, More Process
 tags: [personal]
-description: "Why I didn't become a policeman, read: why she might not become a developer."
+description: "Readiness is relative. I will create for the sake of creation. Because the process is the story, and the product a footnote."
 ---
 
 Bear with me. I'm going to write like I think, and -- outside of the professional space -- much like I speak. My pace is rabid and jerky. My tone is crude and eccentric. I'm verbose, yet hate verbosity. I loathe editing, because if I wanted to sound a certain way, I'd say it that way. Well-organized thoughts, personal and professional, are the exception. I think and speak as a draft. My wife, Kelley, edits away the noise.

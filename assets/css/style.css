@@ -293,7 +293,7 @@ header:hover {
   background-position: center 40%;
 }
 
-header > * {
+nav {
   display: table-cell;
   vertical-align: middle;
 }
@@ -303,6 +303,10 @@ header h1 {
   padding: 0;
   font-size: 16px;
   line-height: 38px;
+}
+
+header h1 {
+  display: none;
 }
 
 nav ul {
@@ -422,6 +426,39 @@ footer {
   }
 }
 
+@media (max-width: 640px) {
+  hr,
+  article,
+  aside {
+    width: 80%;
+  }
+
+  html {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  h1 {
+    font-size: 32px;
+    line-height: 48px;
+  }
+
+  h2,
+  h3 {
+    font-size: 22px;
+    line-height: 24px;
+  }
+
+  h4 {
+    font-size: 18px;
+  }
+
+  h5,
+  h6 {
+    font-size: 16px;
+  }
+}
+
 @media (min-height: 800px) {
   img {
     max-height: 550px
@@ -435,6 +472,11 @@ footer {
 
   main a {
     padding-bottom: 75%;
+  }
+
+  header h1 {
+    display: table-cell;
+    vertical-align: middle;
   }
 }
 

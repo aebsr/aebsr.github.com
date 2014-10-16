@@ -1,0 +1,461 @@
+/* Reset */
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  font: 100 20px/38px "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;
+  letter-spacing: 1px;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  color: rgba(0, 0, 0, 0.8);
+  background: #fcfcfc;
+}
+
+body {
+  margin: 0;
+  /*background-image: linear-gradient(0, transparent 37px, #ccc 39px, transparent);
+  background-size: 100% 38px;*/
+}
+
+main,
+article,
+aside {
+  font-size: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+hr,
+article,
+aside {
+  margin-top: 38px;
+  margin-bottom: 38px;
+  width: 68.75%;
+  max-width: 36em;
+}
+
+article,
+aside,
+figcaption,
+figure,
+footer,
+header,
+main,
+nav,
+section {
+  display: block;
+}
+
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+a {
+  background: transparent;
+  color: #f76;
+  transition: all 0.3s ease-in-out;
+}
+
+a:active,
+a:hover {
+  outline: 0;
+  color: #f78;
+}
+
+i,
+b,
+em,
+strong {
+  font-family: serif;
+  font-size: 110%;
+}
+
+b,
+strong {
+  font-weight: 600;
+}
+
+small {
+  font-size: 70%;
+}
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+img {
+  display: block;
+  width: auto;
+  max-width: 100%;
+  max-height: 330px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -10px;
+  border: 0;
+}
+
+figure {
+  margin: 0;
+}
+
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+pre {
+  overflow: auto;
+  margin: 0 0 44px;
+  padding: 16px 38px;
+  background: rgba(0, 0, 0, 0.8);
+  vertical-align: bottom;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+code {
+  font-size: 100%;
+}
+
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 12px;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin-top: 10px;
+  margin-bottom: 28px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+td,
+th {
+  padding: 0;
+  padding-right: 38px;
+}
+
+td {
+  vertical-align: top;
+}
+
+th {
+  text-align: left;
+  vertical-align: bottom;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  font-weight: 600;
+}
+
+blockquote {
+  margin: 0 0 28px;
+  padding: 0 38px;
+  position: relative;
+  font-family: serif;
+  font-size: 22px;
+  font-style: italic;
+  opacity: 0.8;
+}
+
+blockquote:before {
+  content: '';
+  height: 100%;
+  position: absolute;
+  border-left: 8px solid;
+  left: -20px;
+}
+
+blockquote p:last-child {
+  padding-bottom: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  font-weight: 300;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+h1 {
+  font-size: 54px;
+  line-height: 76px;
+  padding-top: 16px;
+  padding-bottom: 24px;
+}
+
+h2,
+h3 {
+  font-size: 28px;
+  line-height: 38px;
+  padding-top: 6px;
+  padding-bottom: 32px;
+}
+
+h4 {
+  font-size: 24px;
+  padding-top: 8px;
+  padding-bottom: 30px;
+}
+
+h5,
+h6 {
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 28px;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.75);
+}
+
+ul,
+ol,
+p {
+  padding-top: 10px;
+  padding-bottom: 28px;
+}
+
+p {
+  position: relative;
+}
+
+li ul,
+li ol {
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 38px;
+}
+
+ul,
+ol {
+  padding-left: 0;
+}
+
+header {
+  white-space: nowrap;
+  display: table;
+  width: 100%;
+  height: 114px;
+  color: #fff;
+  background: url('../images/sketch.jpg'), rgba(0, 0, 0, 0.8);
+  background-blend-mode: multiply;
+  background-size: 100%;
+  background-position: center 50%;
+  padding-left: 38px;
+  padding-right: 38px;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  text-shadow: rgba(0,0,0,0.5) 1px 1px 2px;
+  transition: all 0.5s ease-out;
+}
+
+header:hover {
+  background-position: center 40%;
+}
+
+header > * {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+nav ul,
+header h1 {
+  padding: 0;
+  font-size: 16px;
+  line-height: 38px;
+}
+
+nav ul {
+  list-style-type: none;
+  text-align: right;
+}
+
+nav li {
+  display: inline;
+}
+
+nav li:before {
+  content: '/';
+  font-size: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+nav li:first-child:before {
+  content: '';
+}
+
+nav a {
+  color: inherit;
+}
+
+header a {
+  text-decoration: none;
+  font-size: 16px;
+  padding: 16px;
+}
+
+main h2 {
+  padding-bottom: 0;
+}
+
+main ol {
+  list-style-type: none;
+  padding: 0;
+}
+
+main li {
+  width: 100%;
+  float: left;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+main a {
+  font-size: 14px;
+  line-height: 28px;
+  text-decoration: none;
+  padding: 32px;
+  display: block;
+}
+
+main a:hover {
+  background: #f76;
+  color: #fff;
+}
+
+hr {
+  border: 0;
+  border-bottom: 1px solid #f76;
+}
+
+aside {
+  border-top: 1px solid #f76;
+}
+
+aside h1 {
+  font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;
+}
+
+aside a {
+  text-decoration: none;
+}
+
+footer {
+  font-size: 9vw;
+  overflow: hidden;
+  text-align: center;
+  color: #fcfcfc;
+  white-space: nowrap;
+  line-height: 0.6;
+  background: rgba(0, 0, 0, 0.8);
+  margin-top: 76px;
+}
+
+.video {
+  padding-bottom: 56.25%;
+  position: relative;
+}
+
+.video iframe {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+@media (min-height: 640px) {
+  img {
+    max-height: 440px
+  }
+}
+
+@media (min-width: 640px) {
+  main li {
+    width: 50%;
+  }
+
+  main a {
+    height: 0;
+    padding-bottom: 50%;
+  }
+}
+
+@media (min-height: 800px) {
+  img {
+    max-height: 550px
+  }
+}
+
+@media (min-width: 800px) {
+  main li {
+    width: 50%;
+  }
+
+  main a {
+    padding-bottom: 75%;
+  }
+}
+
+@media (min-height: 960px) {
+  img {
+    max-height: 660px
+  }
+}
+
+@media (min-width: 960px) {
+  main li {
+    width: 33.32%;
+  }
+
+  main a {
+    padding-bottom: 100%;
+  }
+}
+
+@media (min-width: 1120px) {
+  main li {
+    width: 25%;
+  }
+}

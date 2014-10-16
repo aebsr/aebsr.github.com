@@ -1,29 +1,9 @@
+# Serving
+baseurl: "" # does not include hostname
+
+# Outputting
+permalink:     /:year/:month/:day/:title/
+
 title:        aeb.sr
 tagline:      'Code. Pixels. Words.'
 description:  'Opinionated dapper developer, promoting diversity in tech.'
-# Omit trailing slashes from your site url
-url:          http://aeb.sr
-author:
-  name:       'Antoine Butler'
-  bio:        'A designer, developer and musician working for <a href="http://hzdg.com">HZ</a>. His opinions are his own, and often offend. <a href="mailto:antoinebsr@gmail.com?subject=Hi">Say Hi.</a>'
-  email:      'antoinebsr@gmail.com'
-  # Twitter user name WITH @ sign
-  twitter:    '@aebsr'
-  google_verify:     'm2QfwtTj5--Xr9RzyJf8JHdD5SkfKnjVTd2vhRo7CxQ'
-  google_plus:       'AntoineButlerSr'
-analytics:    'UA-34982219-1'
-permalink:    pretty
-pygments:     true
-markdown:     kramdown
-paginate:     6
-
-links:
-  - title: Blog
-    url: /
-  - title: Elsewhere
-    url: /elsewhere/
-  - title: About
-    url: /about
-  - title: Twitter
-    url: http://twitter.com/aebsr
-    external: true

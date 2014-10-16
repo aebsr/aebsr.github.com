@@ -3,53 +3,7 @@ layout: default
 ---
 
 <article>
-  <span class="post-date">{{ page.date | date_to_string }}</span>
   <h1>{{ page.title }}</h1>
   {{ content }}
-
-  {% if page.tags.size > 0 %}
-  <b>Tagged:</b>
-  <ul id="tags">
-    {% for tag in page.tags %}<li><a href="{{ site.url }}/tags/#{{ tag | cgi_encode }}">{{ tag }}</a>{% unless forloop.last %}{% endunless %}{% endfor %}</li>
-  </ul>
-  {% endif %}
-
-  <hr>
-
-  <footer>
-
-    <div id="share">
-      <h5>Share Post</h5>
-      <ul>
-        <li>
-          <a class="twitter" href="http://twitter.com/share?text={{ page.title | uri_escape }}&amp;url={{ site.url }}{{page.url}}">t<span class="poof">witter</span></a>
-        </li>
-        <li>
-          <a class="facebook" href="http://www.facebook.com/sharer.php?u={{ site.url }}{{ page.url }}">f<span class="poof">acebook</span></a>
-        </li>
-        <li>
-          <a class="gplus" href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}">g<span class="poof">oogle +</span></a>
-        </li>
-      </ul>
-    </div>
-
-    <div id="bio">
-      <h5>{{ site.author.name }}</h5>
-      <p>{{ site.author.bio }}</p>
-    </div>
-
-  </footer>
-
-  {% if site.related_posts.size %}
-  <aside id="related-posts">
-    <h5>Related Posts</h5>
-    {% for post in site.related_posts limit:2 %}
-    <div>
-      <h6><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h6>
-      <span class="post-date">{{ post.date | date_to_string }}</span>
-    </div>
-    {% endfor %}
-  </aside>
-  {% endif %}
-
+  <time>{{ page.date | date_to_string }}</time>
 </article>

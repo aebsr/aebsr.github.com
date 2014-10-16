@@ -10,3 +10,5 @@ description:  'Opinionated dapper developer, promoting diversity in tech.'
 
 sass:
   style: :compressed
+
+include: [.htaccess]

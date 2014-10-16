@@ -1,36 +1,32 @@
 * {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+	-webkit-box-sizing:border-box;
+	box-sizing:border-box;
 }
 
 html {
-  font: 100 20px/38px $serif;
-  letter-spacing: 1px;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  color: $black;
-  background: $white;
-}
-
-body {
-  margin: 0;
+	font:100 20px/38px $serif;
+	letter-spacing:1px;
+	-ms-text-size-adjust:100%;
+	-webkit-text-size-adjust:100%;
+	color:$black;
+	background:$white;
 }
 
 main,
 article,
 aside {
-  font-size: 100%;
-  margin-left: auto;
-  margin-right: auto;
+	font-size:100%;
+	margin-left:auto;
+	margin-right:auto;
 }
 
 hr,
 article,
 aside {
-  margin-top: 38px;
-  margin-bottom: 38px;
-  width: 68.75%;
-  max-width: 36em;
+	margin-top:38px;
+	margin-bottom:38px;
+	width:68.75%;
+	max-width:36em;
 }
 
 article,
@@ -42,154 +38,152 @@ header,
 main,
 nav,
 section {
-  display: block;
+	display:block;
 }
 
 audio,
 canvas,
 progress,
 video {
-  display: inline-block;
-  vertical-align: baseline;
+	display:inline-block;
+	vertical-align:baseline;
 }
 
 audio:not([controls]) {
-  display: none;
-  height: 0;
+	display:none;
+	height:0;
 }
 
 a {
-  background: transparent;
-  color: $action;
-  transition: all 0.3s ease-in-out;
+	background:transparent;
+	color:$action;
+	transition:all .3s ease-in-out;
 }
 
 a:active,
 a:hover {
-  outline: 0;
-  color: $action2;
+	outline:0;
+	color:$action2;
 }
 
 i,
 b,
 em,
 strong {
-  font-family: serif;
-  font-size: 110%;
+	font-family:serif;
+	font-size:110%;
 }
 
 b,
 strong {
-  font-weight: 600;
+	font-weight:600;
 }
 
 small {
-  font-size: 70%;
+	font-size:70%;
 }
 
 sub,
 sup {
-  font-size: 75%;
-  line-height: 0;
-  position: relative;
-  vertical-align: baseline;
+	font-size:75%;
+	line-height:0;
+	position:relative;
+	vertical-align:baseline;
 }
 
 sup {
-  top: -0.5em;
+	top:-.5em;
 }
 
 sub {
-  bottom: -0.25em;
+	bottom:-.25em;
 }
 
 img {
-  display: block;
-  width: auto;
-  max-width: 100%;
-  max-height: 330px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: -10px;
-  border: 0;
-}
-
-figure {
-  margin: 0;
+	display:block;
+	width:auto;
+	max-width:100%;
+	max-height:330px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:-10px;
+	border:0;
 }
 
 hr {
-  -moz-box-sizing: content-box;
-  box-sizing: content-box;
-  height: 0;
+	-moz-box-sizing:content-box;
+	box-sizing:content-box;
+	height:0;
+	border:0;
+	border-bottom:1px solid $action;
 }
 
 pre {
-  overflow: auto;
-  margin: 0 0 44px;
-  padding: 16px 38px;
-  background: $black;
-  vertical-align: bottom;
-  color: rgba(255, 255, 255, 0.8);
+	overflow:auto;
+	background:$black;
+	vertical-align:bottom;
+color:rgba(255,
+255,
+255,
+	0.8);
+	margin:0 0 44px;
+	padding:16px 38px;
 }
 
 code {
-  font-size: 100%;
+	font-size:100%;
 }
 
 kbd,
 pre,
 samp {
-  font-family: monospace, monospace;
-  font-size: 12px;
+font-family:monospace,
+	 monospace;
+	font-size:12px;
 }
 
 table {
-  border-collapse: collapse;
-  border-spacing: 0;
-  margin-top: 10px;
-  margin-bottom: 28px;
-  margin-left: auto;
-  margin-right: auto;
+	border-collapse:collapse;
+	border-spacing:0;
+	margin:10px auto 28px;
 }
 
 td,
 th {
-  padding: 0;
-  padding-right: 38px;
+	padding:0 38px 0 0;
 }
 
 td {
-  vertical-align: top;
+	vertical-align:top;
 }
 
 th {
-  text-align: left;
-  vertical-align: bottom;
-  font-family: $sans-serif;
-  font-weight: 600;
+	text-align:left;
+	vertical-align:bottom;
+	font-family:$sans-serif;
+	font-weight:600;
 }
 
 blockquote {
-  margin: 0 0 28px;
-  padding: 0 38px;
-  position: relative;
-  font-family: serif;
-  font-size: 22px;
-  font-style: italic;
-  opacity: 0.8;
+	position:relative;
+	font-family:serif;
+	font-size:22px;
+	font-style:italic;
+	opacity:0.8;
+	margin:0 0 28px;
+	padding:0 38px;
 }
 
 blockquote:before {
-  content: '';
-  height: 100%;
-  position: absolute;
-  border-left: 8px solid;
-  left: -20px;
+	content:'';
+	height:100%;
+	position:absolute;
+	border-left:8px solid;
+	left:-20px;
 }
 
 blockquote p:last-child {
-  padding-bottom: 0;
+	padding-bottom:0;
 }
 
 h1,
@@ -198,8 +192,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: $sans-serif;
-  font-weight: 300;
+	font-family:$sans-serif;
+	font-weight:300;
 }
 
 h1,
@@ -211,87 +205,90 @@ h6,
 ul,
 ol,
 p {
-  margin-top: 0;
-  margin-bottom: 0;
+	margin-top:0;
+	margin-bottom:0;
 }
 
 h1 {
-  font-size: 54px;
-  line-height: 76px;
-  padding-top: 16px;
-  padding-bottom: 24px;
+	font-size:54px;
+	line-height:76px;
+	padding-top:16px;
+	padding-bottom:24px;
 }
 
 h2,
 h3 {
-  font-size: 28px;
-  line-height: 38px;
-  padding-top: 6px;
-  padding-bottom: 32px;
+	font-size:28px;
+	line-height:38px;
+	padding-top:6px;
+	padding-bottom:32px;
 }
 
 h4 {
-  font-size: 24px;
-  padding-top: 8px;
-  padding-bottom: 30px;
+	font-size:24px;
+	padding-top:8px;
+	padding-bottom:30px;
 }
 
 h5,
 h6 {
-  font-size: 20px;
-  padding-top: 10px;
-  padding-bottom: 28px;
-  text-transform: uppercase;
-  color: rgba(0, 0, 0, 0.75);
+	font-size:20px;
+	padding-top:10px;
+	padding-bottom:28px;
+	text-transform:uppercase;
+color:rgba(0,
+0,
+0,
+	0.75);
 }
 
 ul,
 ol,
 p {
-  padding-top: 10px;
-  padding-bottom: 28px;
+	padding-top:10px;
+	padding-bottom:28px;
 }
 
 p {
-  position: relative;
+	position:relative;
 }
 
 li ul,
 li ol {
-  padding-top: 0;
-  padding-bottom: 0;
-  padding-left: 38px;
+	padding-top:0;
+	padding-bottom:0;
+	padding-left:38px;
 }
 
 ul,
 ol {
-  padding-left: 0;
-}
-
-hr {
-  border: 0;
-  border-bottom: 1px solid $action;
+	padding-left:0;
 }
 
 aside {
-  border-top: 1px solid $action;
+	border-top:1px solid $action;
 }
 
 aside h1 {
-  font-family: $serif;
+	font-family:$serif;
 }
 
 aside a {
-  text-decoration: none;
+	text-decoration:none;
 }
 
 footer {
-  font-size: 9vw;
-  overflow: hidden;
-  text-align: center;
-  color: $white;
-  white-space: nowrap;
-  line-height: 0.6;
-  background: $black;
-  margin-top: 76px;
+	font-size:9vw;
+	overflow:hidden;
+	text-align:center;
+	color:$white;
+	white-space:nowrap;
+	line-height:0.6;
+	background:$black;
+	margin-top:76px;
+}
+
+body,
+figure {
+	margin:0;
 }

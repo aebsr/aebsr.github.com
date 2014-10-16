@@ -1,0 +1,35 @@
+---
+---
+@charset "utf-8";
+
+$action: #f76;
+$action2: #f78;
+$white: #fcfcfc;
+$black: rgba(0, 0, 0, 0.8);
+$sans-serif: Futura, "Trebuchet MS", Arial, sans-serif;
+$serif: "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;
+
+@import
+  "base",
+  "header",
+  "landing",
+  "responsive"
+;
+
+body {
+  /*background-image: linear-gradient(0, transparent 37px, #ccc 39px, transparent);
+  background-size: 100% 38px;*/
+}
+
+.video {
+  padding-bottom: 56.25%;
+  position: relative;
+}
+
+.video iframe {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}

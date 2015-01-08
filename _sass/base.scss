@@ -118,6 +118,10 @@ hr {
 	border-bottom:1px solid $action;
 }
 
+iframe {
+	max-width: 100%;
+}
+
 pre {
 	overflow:auto;
 	background:$black;

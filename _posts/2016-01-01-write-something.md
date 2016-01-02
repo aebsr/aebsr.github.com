@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Write A Lot
+title: Writing Something
 tags: [blogging, personal]
 description: "Here starts my mission to write something, every day."
 ---

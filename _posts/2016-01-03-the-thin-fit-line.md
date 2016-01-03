@@ -2,7 +2,7 @@
 layout: post
 title: The Thin Fit Line
 tags: [fitness, personal]
-description: "Blurring the line between athletic and addict."
+description: "Blurring the line between athlete and addict."
 ---
 
 There's no time like the present. Covered in sweat at my standing desk, reflecting on my ad hoc workout. I've spent the lion's share of the day couch locked in my pajamas fending off a migraine. Unable to commit to the 5-minute drive to the gym, I decided put on sneakers and skip for 30 minutes with a weighted jump rope.

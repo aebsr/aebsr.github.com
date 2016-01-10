@@ -2,7 +2,7 @@
 layout: post
 title: Gold's Challenge
 tags: [personal, fitness]
-description: "Challenge Accepted. Forget the money, I'm going Adonis."
+description: "Challenge Accepted. Forget the money, I'm chasing Adonis."
 ---
 
 ## The Fit Test

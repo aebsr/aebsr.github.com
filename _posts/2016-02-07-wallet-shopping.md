@@ -2,7 +2,7 @@
 layout: post
 title: Wallet Shopping
 tags: [personal, product]
-description: ""
+description: "I've spent years in search of the perfect wallet. Dramatic, I know. But the search continues."
 ---
 
 I've spent years in search of the perfect wallet. Dramatic, I know. But the search continues.

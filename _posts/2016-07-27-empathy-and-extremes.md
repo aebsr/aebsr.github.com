@@ -16,7 +16,7 @@ I love conferences. The networking, education and let's be honest, the traveling
 
 ## One of This Years Themes: Empathy
 
-Jeffrey kicked off the day as usual by reminded us that our job over the years hasn't changed all that much. And in his message to do better, be better and expect better he turned his focus to accessibility.
+Jeffrey kicked off the day as usual by reminding us that our job over the years hasn't changed all that much. And in his message to do better, be better and expect better he turned his focus to accessibility.
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">RE: Accessibility - “Phrase it in the negative and see if it’s OK with you.” eg “We don’t care about ____ so they can’t use our site” <a href="https://twitter.com/hashtag/aeadc?src=hash">#aeadc</a></p>&mdash; Antoine Butler [@aebsr] <a href="https://twitter.com/aebsr/status/757570052191350788">July 25, 2016</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>

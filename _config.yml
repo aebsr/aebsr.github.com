@@ -12,3 +12,6 @@ sass:
   style: :compressed
 
 include: [.htaccess]
+
+gems:
+  - jekyll-redirect-from

@@ -3,6 +3,7 @@ layout: post
 title: Down With The Blues
 tags: [community, bb13, blue beanie day]
 description: "The semantic web continues to be relevant and perhaps more importantly, profitable. #BB13"
+redirect_from: "/2013/12/02/down-with-the-blues/"
 ---
 
 This past Saturday marked the 7th annual Blue Beanie Day [#BBD13](https://twitter.com/search?q=%23BBD13&src=hash). A day meant to celebrate web standards, it's practitioners as well as the man and book that showed us all the promise land. [Jeffrey Zeldman](http://www.zeldman.com/)'s [Designing With Web Standards](http://en.wikipedia.org/wiki/Designing_with_Web_Standards) (DWWS).

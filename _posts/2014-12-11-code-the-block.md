@@ -3,6 +3,7 @@ layout: post
 title: Code The Block
 tags: [personal, music]
 description: "I can't work without music. These hip hop albums powered thousands of lines of code in 2014."
+redirect_from: "/2014/12/11/code-the-block/"
 ---
 
 For those that don't know, music is my first passion. As a result, I can't make it through a single day without headphones and good music. Though I have mildly diverse musical tastes, hip-hop is my bread and butter. Every line of code I've committed in the last year has been powered in some way by a steady stream of music. Despite 2014 being terrible for the quality of hip-hop releases, I managed to get my work done.

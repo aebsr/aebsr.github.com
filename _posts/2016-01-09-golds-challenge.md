@@ -3,6 +3,7 @@ layout: post
 title: Gold's Challenge
 tags: [personal, fitness]
 description: "Challenge Accepted. Forget the money, I'm chasing Adonis."
+redirect_from: "/2016/01/09/golds-challenge/"
 ---
 
 - 0 Pull Ups - **Needs Improvement**, go ahead and kill me now [Trevor](trevor_davis).

@@ -3,6 +3,7 @@ layout: post
 title: Bmoresponsive Logo Mark
 tags: [experiments, css]
 description: "A CSS logo mark for the Bmoresponsive one day conference in Baltimore."
+redirect_from: "/2014/02/24/bmoresponsive-logo-mark/"
 ---
 
 [Bmoresponsive](http://bmoresponsive.com/) is a single day, single track conference dedicated to responsive web design. On their website the logo is shown with two lockups. One served as an SVG, the other a JPG. I wanted to try and make the same logo mark with pure CSS and HTML.

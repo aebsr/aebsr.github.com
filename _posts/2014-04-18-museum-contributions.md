@@ -3,6 +3,7 @@ layout: post
 title: Museum Contributions
 tags: [rant, community, personal]
 description: "A republished post from 2008, inspired by Airbag Intl.'s plea for a Web Design Musem."
+redirect_from: "/2014/04/18/museum-contributions/"
 ---
 
 After overlooking ["Vogel's"](http://www.airbagindustries.com/archives/airbag/vogel.php) inspired plea:

@@ -3,6 +3,7 @@ layout: post
 title: Signing Music
 tags: [personal, accessibility, music]
 description: "Today I discovered that instrumental music can be signed. A reminder that anything and everything can be made accessible."
+redirect_from: "/2016/01/07/signing-music/"
 ---
 
 <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=499125866/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://oddiseemmg.bandcamp.com/album/people-hear-what-they-see">People Hear What They See by Oddisee</a></iframe>

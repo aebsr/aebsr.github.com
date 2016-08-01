@@ -3,6 +3,7 @@ layout: post
 title: To CSS Conf We Go
 tags: [community, speaking, cssconf]
 description: "The plan is to discuss opportunities, risks and the potential future of height -based media queries. Screens move in both directions, but we almost always deal in width."
+redirect_from: "/2014/02/21/to-css-conf-we-go/"
 ---
 
 Time to put up or shut up, because my talk ‘proposal’ for [CSS Conf](http://2014.cssconf.com/) has been accepted.

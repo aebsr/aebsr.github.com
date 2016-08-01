@@ -3,6 +3,7 @@ layout: post
 title: Embrace The Vertical
 tags: [cssconf, speaking]
 description: "Video, slides and a few lessons learned from my first speaking engagement."
+redirect_from: "/2014/08/14/embrace-the-vertical/"
 ---
 
 My session from CSS Conf 2014 is online. Feel free to follow along with

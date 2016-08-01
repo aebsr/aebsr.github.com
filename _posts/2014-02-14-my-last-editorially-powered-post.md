@@ -3,6 +3,7 @@ layout: post
 title: My Last Editorially Powered Post
 tags: [startup, blogging]
 description: "Editorially made collaborative writing easy. Peep the past tense."
+redirect_from: "/2014/02/14/my-last-editorially-powered-post/"
 ---
 
 [Yesterday](http://stet.editorially.com/articles/goodbye/), one of my favorite web applications announced it would be closing its doors. This sucks, but as we all know, that’s the startup life. An idea without execution is worthless. In some ways, so is a product without users. The latter was the case for [Editorially](http://editorially.com/).

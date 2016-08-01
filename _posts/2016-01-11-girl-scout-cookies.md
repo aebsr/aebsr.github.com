@@ -3,6 +3,7 @@ layout: post
 title: Girl Scout Cookies
 tags: [personal]
 description: "Help my little Princess Mia rock the Girl Scout Cookie sale."
+redirect_from: "/2016/01/11/girl-scout-cookies/"
 ---
 
 My daughter Mia is adding to her ever growing list of activities outside of school. She'll be starting guitar lessons soon. In addition to Ballet, Tap and Jazz dance she also takes Gymnastics. She has also joined the Girl Scouts. And yes, it's that time of year.

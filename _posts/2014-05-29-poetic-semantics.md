@@ -3,6 +3,7 @@ layout: post
 title: Poetic Semantics
 tags: [css, semantics, accessibility, funny]
 description: "A mildly funny, digression of thought fueled journey in search of the perfect markup for poems and lyrics."
+redirect_from: "/2014/05/29/poetic-semantics/"
 ---
 
 This, not actually just in. [Geordi Laforge](http://en.wikipedia.org/wiki/Geordi_La_Forge) announced his plans to [bring reading rainbow back for every child, everywhere](https://www.kickstarter.com/projects/readingrainbow/bring-reading-rainbow-back-for-every-child-everywh). Which you should of course support. Immediately.

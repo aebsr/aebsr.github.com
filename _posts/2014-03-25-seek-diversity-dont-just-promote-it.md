@@ -3,6 +3,7 @@ layout: post
 title: Seek Diversity, Don't Just Promote It
 tags: [diversity, community]
 description: "Checkout Jay Smooth speak on Hip Hop, New Media and diversity."
+redirect_from: "/2014/03/25/seek-diversity-dont-just-promote-it/"
 ---
 
 As a hip hop enthusiast turned web developer I'm all too familiar with the history and issues my passions share. A friends' recent marginalization in the workplace exemplifies why diversity in so important.

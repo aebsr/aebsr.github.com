@@ -3,6 +3,7 @@ layout: post
 title: Antoine Agassi
 tags: [fitness, personal]
 description: "Channeling my inner Agassi, I took the family out to play tennis."
+redirect_from: "/2016/01/02/antoine-agassi/"
 ---
 
 As a kid I ran. Down the block, across the street, and up the stairs. Even through the hall, when my Grandma and Mom weren’t home at least.

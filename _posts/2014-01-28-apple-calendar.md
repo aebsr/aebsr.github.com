@@ -3,6 +3,7 @@ layout: post
 title: Apple Calendar
 tags: [experiments, less, inspiration]
 description: "An experiment, replicating most of the basic UI for Apple Calendar with CSS."
+redirect_from: "/2014/01/28/apple-calendar/"
 ---
 
 A not so sudden bit of insomnia fueled a bit of CSS inspiration. I decided to replicate the Apple Calendar UI in CSS. I forwent any JavaScript or involved Media Queries and just focussed on the base styles. Checkout the basic [demo](http://codepen.io/aebsr/full/gykpj).

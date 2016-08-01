@@ -3,6 +3,7 @@ layout: post
 title: Writing Something
 tags: [blogging, personal]
 description: "Here starts my mission to write something, every day."
+redirect_from: "/2016/01/01/write-something/"
 ---
 
 > Don’t write a lot. Just write often.<br />

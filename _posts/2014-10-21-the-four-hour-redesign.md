@@ -3,6 +3,7 @@ layout: post
 title: The Four Hour Redesign
 tags: [personal, design, performance]
 description: "A quick blog redesign. Simple, content first and perfomance focussed."
+redirect_from: "/2014/10/21/the-four-hour-redesign/"
 ---
 
 Two days after writing [Less Product, More Process], I looked at my [Lucid] Jekyll Themed blog with renewed angst. It's readability was only satisfactory and the google page speed score was dissapointing. So, to steal a line from Andrew Cohen's [Built In 12 Hours]:

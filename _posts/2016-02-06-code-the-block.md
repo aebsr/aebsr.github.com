@@ -3,6 +3,7 @@ layout: post
 title: Code The Block - 2015
 tags: [personal, music]
 description: "A day in the work life of Antoine Butler, a rapper turned developer. Join me on journey through my headphones and keyboard."
+redirect_from: "/2016/02/06/code-the-block/"
 ---
 
 Here's my late follow up to last year's [Code The Block](/2014/12/11/code-the-block/). Below are a half assed attempt at sharing music that powered a year of code. Since I don't drink caffeine any more I have to credit music with 100% of my productivity.

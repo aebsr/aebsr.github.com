@@ -3,6 +3,7 @@ layout: post
 title: Allow Me To Re-introduce Myself
 tags: [community, dctech]
 description: "As I stumble through git commits and missing meetups, I'll try and find a balance between life, community and code."
+redirect_from: "/2013/11/18/allow-me-to-reintroduce-myself/"
 ---
 
 This just in: Blogging is hard. What's even harder, is not being more involved in the community and industry I've dedicated so much of the last decade to. At last here we are, on the 5th incarnation of "me online."

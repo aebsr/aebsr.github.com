@@ -4,6 +4,7 @@ title: Gun Guys Miss The Point
 tags: [personal, hobbies, 2A]
 description: "A not short, post gun run ramble."
 comments: false
+redirect_from: "/2016/01/06/gun-guys-miss-the-point/"
 ---
 
 There was a weird juxtaposition today. A couple days after POTUS announced his Gun Control steps, I found myself driving to the gun shop to pick up a previously purchased firearm. CNN was on the radio interviewing the New Hampshire dealer who [gifted a custom AR](http://www.cnn.com/2016/01/05/politics/donald-trump-ar-15-gift-new-hampshire/) to Donald Trump. When asked if the dealers thought that President Obama wanted to take everyone's guns, the dealer said yes rather hesitantly.

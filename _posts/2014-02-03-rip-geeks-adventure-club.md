@@ -3,6 +3,7 @@ layout: post
 title: R.I.P Geeks Adventure Club
 tags: [gac, dctech, meetup]
 description: "Geeks’ Adventure Club: It was a fun run and a slow death for the DC meetup."
+redirect_from: "/2014/02/03/rip-geeks-adventure-club/"
 ---
 
 ![](/assets/media/gacdc-welcome.jpg)

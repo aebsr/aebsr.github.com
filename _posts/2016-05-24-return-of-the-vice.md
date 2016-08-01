@@ -3,6 +3,7 @@ layout: post
 title: Return Of The Vice
 tags: [personal, fitness]
 description: "I'm going going, back back, to caffeine and meat."
+redirect_from: "/2016/05/24/return-of-the-vice/"
 ---
 
 Those that know me, know I enjoy silly little challenges. There's typically some meaningful back story but the challenges tend to all spawn from a kind "I wonder if I can" conversation. This constant attempt to strengthen will power is what allowed me to quit smoking some six years ago, quick caffeine twice for over a year each, go vegetarian for a month every December and go Pescatarian for few months this year.

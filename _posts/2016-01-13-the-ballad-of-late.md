@@ -3,6 +3,7 @@ layout: post
 title: The Ballad of Late
 tags: [personal]
 description: "A series of late, but welcomed events."
+redirect_from: "/2016/01/13/the-ballad-of-late/"
 ---
 
 Guess I should officially call this series of posts "semi daily", because I didn't write anything yesterday. But again, with good reason. I spent the day on my stomach in Wild and Wonderful West Virginia.

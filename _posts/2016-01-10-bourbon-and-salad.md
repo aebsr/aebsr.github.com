@@ -3,6 +3,7 @@ layout: post
 title: Bourbon and Salad
 tags: [personal, fitness]
 description: "This is why I didn't write anything this past Friday. I was drinking bourbon and eating salad. By-My-Self."
+redirect_from: "/2016/01/10/bourbon-and-salad/"
 ---
 
 It was bound to happen every now and then, though I didn't expect it to be so soon. This past Friday, I didn't [write something](/2016/01/01/write-something/). For shame.

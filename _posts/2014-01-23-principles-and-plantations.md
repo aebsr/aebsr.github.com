@@ -3,6 +3,7 @@ layout: post
 title: Principles and Plantations
 tags: [community, industry, diversity, speaking, cssconf]
 description: "Tech conferences tend to be a bit culturaly void, but was a cultural gut check in order for CSSConf?"
+redirect_from: "/2014/01/23/principles-and-plantations/"
 ---
 
 I couldn't make this quick, so I hope it's not like slowly pulling off a cultural band-aid. One of the reasons I've resparked my involvement in the design and development community is to promote diversity. That's something most in our field never _have_ to concern themselves with -- at least not in the professional space. So here I am, doing what I've said I'd do for the past 3 years. Putting myself out there. Submitting talks and engaging with those whose steady presence in our community often defines it.

@@ -3,6 +3,7 @@ layout: post
 title: Wallet Shopping
 tags: [personal, product]
 description: "I've spent years in search of the perfect wallet. Dramatic, I know. But the search continues."
+redirect_from: "/2016/02/07/wallet-shopping/"
 ---
 
 I've spent years in search of the perfect wallet. Dramatic, I know. But the search continues.

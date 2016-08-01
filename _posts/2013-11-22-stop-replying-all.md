@@ -3,6 +3,7 @@ layout: post
 title: Stop Replying All
 tags: [etiquette, communication, rant]
 description: "Friends don't let friends reply all. An easy way to stop Reply All, overnight."
+redirect_from: "/2013/11/22/stop-replying-all/"
 ---
 
 Wether it's an email for your soccer team, band or office, rarely is replying to everyone truly necessary. Let's forego the debate on when it's appropriate, and just agree we've all received more Reply All emails than we would like.

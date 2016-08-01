@@ -3,6 +3,7 @@ layout: post
 title: One Year Ago, Today
 tags: [community]
 description: "Reflecting on my year in blogging about code, pixels and words."
+redirect_from: "/2014/11/18/one-year-ago-today/"
 ---
 
 > Thirsty as the day I took my first breath / Back like I never left / From the start to the ending / I pick up from where you finish / At last I welcome you to [the beginning](http://rap.genius.com/Fashawn-the-beginning-lyrics/)

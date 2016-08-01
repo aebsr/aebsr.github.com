@@ -3,6 +3,7 @@ layout: post
 title: Empathy And Extremes
 tags: [diversity, community, technology, accessibility]
 description: "An Event Apart DC 2016: Empathy, Accessibility, Extremes"
+redirect_from: "/2016/07/27/empathy-and-extremes/"
 ---
 
 [An Event Apart](http://archive.aneventapart.com/events/2008/chicago/) was the first technology conference I ever attended back in 2008. [And](http://archive.aneventapart.com/2009/chicago/) [five](http://archive.aneventapart.com/2010/dc/) [more](http://archive.aneventapart.com/2011/sanfrancisco/) [Events](http://aneventapart.com/event/washington-dc-2013) [later](http://aneventapart.com/event/washington-dc-2016) I find myself often being asked – "Why do you come back?".

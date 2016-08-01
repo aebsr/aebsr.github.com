@@ -2,11 +2,11 @@
 baseurl: "" # does not include hostname
 
 # Outputting
-permalink:     /:year/:month/:day/:title/
+permalink:     /notebook/:year/:month/:day/:title/
 
-title:        aeb.sr
+title:        'aeb.sr a.k.a Antoine Butler Sr'
 tagline:      'Code. Pixels. Words.'
-description:  'Opinionated dapper developer, promoting diversity in tech.'
+description:  'Purveyor of quirky verbosity, parables and dope rhymes. Maker. Rider. Gambler. Shooter. UI Engineer.'
 
 sass:
   style: :compressed

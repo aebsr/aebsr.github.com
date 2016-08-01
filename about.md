@@ -1,46 +1,31 @@
 ---
 layout: page
 title: About Me
-description: "Antoine Butler Sr - designer, developer, musician."
+description: "Antoine Butler Sr - Maker. Rider. Gambler. Shooter. UI Engineer."
 permalink: /about/
 ---
 
-An ’80s baby and male, hailing from the DMV. That’s D.C. by birth, Maryland by choice and Virginia by hell or high water.
+I'm the Lead UI Engineer at TravelBank where I help build the interface for a hybrid responsive web application. I've spoken at [CSSConf](http://2014.cssconf.com/) and have written a few pieces on the subject of that talk in Smashing Newsletter and Net Magazine.
 
-> Purveyor of quirky verbosity, parables and dope rhymes.
+I discovered the web through my first passion, music. Cutting my teeth on websites for my group and others in the local Hip Hop community. In 2001 I turned what had been a hobby into a career. One that was largely built on being a contractor resource for startups and agencies such as [AKQA](http://akqa.com), [nclud](http://nclud.com), [EightShapes](http://eightshapes.com) and [HZDG](http://hzdg.com).
 
-I've been making the web for over 12 years. The last 3 of which have been at [HZ](http://hzdg.com) as a Senior Front End Developer.
+Some well-known brands I've worked with include [Washington Redskins](http://www.hzdg.com/work/redskins/), [Volkswagen](http://www.hzdg.com/work/volkswagen) [King Arthur Flour](http://www.hzdg.com/work/king-arthur), [Hilton](http://hzdg.tumblr.com/post/63650525553/hilton-hotels-resorts-hilton-hotels-resorts) and [USPS](http://usps.com).
 
-I've managed creative teams at The Federal Highway Administration and The Performance Institute. I've worked for startups including [Personal](http://personal.com), [TravelShark](http://travelshark.com) and [PaySimple](http://paysimple.com). I've worked with agencies such as [AKQA](http://akqa.com), [nclud](http://nclud.com), [EightShapes](http://eightshapes.com) and [Probonafide](http://probonafide.com).
+<figure markdown="1">
+![A photo of me standing in the Valley of Fire after riding through the national park](/assets/images/valley-of-fire.jpg)
+Photo: Earle Barnes, [Valley of Fire State Park](http://parks.nv.gov/parks/valley-of-fire-state-park/)
+</figure>
 
-Larger brands that I've worked with have included [Washington Redskins](http://www.hzdg.com/work/redskins/), Volkswagen, [King Arthur Flour](http://www.hzdg.com/work/king-arthur), Webex, [Hilton](http://hzdg.tumblr.com/post/63650525553/hilton-hotels-resorts-hilton-hotels-resorts) and [USPS](http://usps.com).
+I maintain three open source projects in the form of my children. Beyond that, I'm an anti nerd, much more interested in who people are than what they do. So I don't talk tech too often unless I'm offering some bit of unsolicited criticism. I have a lot of hobbies. On the rare occasion I'm not either working or spending time with my family you can find me on a motorcycle, at the shooting range, or in a recording studio.
 
-## Outside of Work
+Follow me on [Twitter](http://twitter.com/aebsr) or [Spotify](https://open.spotify.com/user/125608571).
 
-My wife and kids keep me busy. Between soccer, karate, gymnastics and diapers, I try to fit in at least one date night every other week. When not otherwise committed, I'll spend my time making music (my first passion), exercising or at the range -- think gun powder, not golf balls.
+## Elsewhere
 
-There are few things beyond family, music and the web that I am passionate about.
-
-### Social?
-
-Best places to reach me are [LinkedIn](http://www.linkedin.com/in/aebsr) if you're not a recruiter, [Twitter](http://twitter.com/aebsr) for general purpose, and [rdio](http://www.rdio.com/people/aebsr/).
-
-### And Elsewhere
-
-
-A collection of things I've written and made elsewhere online.
+A collection of things I've written or were written about me.
 
 - [Smashing Newsletter](http://www.smashingmagazine.com/smashing-newsletter-issue-118/#a6)
   The Forgotten Vertical Media Queries
 - [Net Magazine](http://www.creativebloq.com/netmag/issue-258-81412615)
   Walking through some tips on using vertical media queries.
-- [Embrace The Vertical](http://2014.cssconf.com/)
-  Speaking engagement at CSS Conf, May 2014
-- [Lucid Jekyll Theme](http://aeb.sr/lucid-jekyll-theme/)
-  A simple, content first Jekyll theme.
-- [Git Checkout Orphan](https://coderwall.com/p/k7h0ma)
-  This little alias will automate git checkout of orphan branches
-- [Intrinsic Ratio Less Mixin](https://coderwall.com/p/jn8xlw)
-  A flexible LESS mixin that quickly creates intrinsic ratios
-- PrintFancy.com
-  Resurrecting the oft forgotten print style sheet. As seen on [DotEduGuru](http://doteduguru.com/id3876-dont-loose-your-identity-create-an-effective-print-style-sheet.html) and [Good vs Great Design](http://www.slideshare.net/cameronmoll/good-vs-great-design). Also here's a years' worth of [@printfancy](http://twitter.com/printfancy) [twitter archive](https://twitter.com/search?q=%40printfancy&src=typd&f=realtime).
+- My PrintFancy.com got a shout out on [Good vs Great Design](http://www.slideshare.net/cameronmoll/good-vs-great-design) from Cameron Moll.

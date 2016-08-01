@@ -5,8 +5,6 @@ tags: [personal, fitness]
 description: "Challenge Accepted. Forget the money, I'm chasing Adonis."
 ---
 
-## The Fit Test
-
 - 0 Pull Ups - **Needs Improvement**, go ahead and kill me now [Trevor](trevor_davis).
 - 28 Push Ups in 60 seconds - **Very Good**
 - 30 Crunches in 60 seconds - **Good**

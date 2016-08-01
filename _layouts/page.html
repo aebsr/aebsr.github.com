@@ -2,7 +2,19 @@
 layout: default
 ---
 
+<small class="breadcrumb">
+  <a href="/">aeb.sr</a>
+  /
+  {{ page.title }}
+</small>
+
 <article>
-  <h1>{{ page.title }}</h1>
-  {{ content }}
+  <div class="notebook-title">
+    <h1>
+      <h1>{{ page.title }}</h1>
+    </h1>
+  </div>
+  <div class="notebook-post">
+    {{ content }}
+  </div>
 </article>

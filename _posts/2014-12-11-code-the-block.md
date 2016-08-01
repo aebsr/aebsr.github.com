@@ -5,18 +5,6 @@ tags: [personal, music]
 description: "I can't work without music. These hip hop albums powered thousands of lines of code in 2014."
 ---
 
-<style>
-iframe {width: 100%}
-.rating {
-  width: 5em;
-  display: inline-block;
-  white-space: nowrap;
-  float: right;
-  clear: right;
-  text-align: right;
-}
-</style>
-
 For those that don't know, music is my first passion. As a result, I can't make it through a single day without headphones and good music. Though I have mildly diverse musical tastes, hip-hop is my bread and butter. Every line of code I've committed in the last year has been powered in some way by a steady stream of music. Despite 2014 being terrible for the quality of hip-hop releases, I managed to get my work done.
 
 One night, I complained to my wife about how bad 2014 was musically. She asked, "Can you even come up with a top 10 for 2014?" The quick answer is: Not really. But, challenge accepted.
@@ -63,3 +51,15 @@ This long-awaited follow up to "In The Ruff" is not as strong, but better than n
 
 ## 13. [Reks - Eyes Watching God <span class="rating">☆☆☆</span>](https://rd.io/i/QFNDPgY4pQ/)
 Revolution-minded, Reks manages to slip in his message atop energetic and boom-bap instrumentals. It almost seems like he uses features to distract from his lyrical content -- like when Lauren Hill said, "I add a 'motherfucker' so you ignorant [people] hear me.'"
+
+<style>
+iframe {width: 100%}
+.rating {
+  width: 5em;
+  display: inline-block;
+  white-space: nowrap;
+  float: right;
+  clear: right;
+  text-align: right;
+}
+</style>

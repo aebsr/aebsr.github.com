@@ -2,5 +2,17 @@
 layout: none
 permalink: .htaccess
 ---
+<FilesMatch "\.(jpg)$">
+Header set Cache-Control "max-age=160704000"
+</FilesMatch>
+
+<FilesMatch "\.(html)$">
+Header set Cache-Control "max-age=1800"
+</FilesMatch>
+
+<FilesMatch "\.(jpg|png|gif|jpeg|js)$">
+Header set Cache-Control "max-age=321408000"
+</FilesMatch>
+
 {% for post in site.posts %}Redirect 301 {{ post.url | remove: 'notebook/' }} http://aeb.sr{{ post.url }}
 {% endfor %}

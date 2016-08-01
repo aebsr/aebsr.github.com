@@ -1,6 +1,6 @@
 ---
 layout: none
-permalink: htaccess.txt
+permalink: .htaccess
 ---
-{% for post in site.posts %}Redirect 301 {{ post.url | remove: 'notebook/' }} {{ site.url }}{{ post.url }}
+{% for post in site.posts %}Redirect 301 {{ post.url | remove: 'notebook/' }} http://aeb.sr{{ post.url }}
 {% endfor %}

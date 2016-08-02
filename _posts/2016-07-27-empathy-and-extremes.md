@@ -19,10 +19,8 @@ I love conferences. The networking, education and let's be honest, the traveling
 Jeffrey kicked off the day as usual by reminding us that our job over the years hasn't changed all that much. And in his message to do better, be better and expect better he turned his focus to accessibility.
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">RE: Accessibility - “Phrase it in the negative and see if it’s OK with you.” eg “We don’t care about ____ so they can’t use our site” <a href="https://twitter.com/hashtag/aeadc?src=hash">#aeadc</a></p>&mdash; Antoine Butler [@aebsr] <a href="https://twitter.com/aebsr/status/757570052191350788">July 25, 2016</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">It’s no surprise that we, who spend so much time behind expensive screens decorating the interwebs need be reminded to be empathetic. <a href="https://twitter.com/hashtag/aeadc?src=hash">#aeadc</a></p>&mdash; Antoine Butler (@aebsr) <a href="https://twitter.com/aebsr/status/757939924914040832">July 26, 2016</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 A few talks danced in and out of accessibility, usability and decency. The common thread, empathy. Which Eric expertly and very personally made clear.
 
@@ -36,7 +34,6 @@ Cause I mention many things and I'm presentin many scenes -- [When I'm Flowin](h
 [Eric](https://twitter.com/meyerweb) and [Derek](https://twitter.com/feather) drove this point home for me. We don't have to always think about worst case circumstances but instead just ask ourselves, "How might what I'm making hurt someone?"
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">re: `edge cases` — “Where you ‘stress test’ your work, you find out where it is weak.” — <a href="https://twitter.com/meyerweb">@meyerweb</a> <a href="https://twitter.com/hashtag/aeadc?src=hash">#aeadc</a></p>&mdash; Antoine Butler (@aebsr) <a href="https://twitter.com/aebsr/status/757968971471749120">July 26, 2016</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 It seems like a silly question, after-all we only make websites. But people interact with all different types of websites and interfaces for a multitude of reasons. Some of which aren't pleasant. It's our responsibility to serve them as best we can. This is something addressed not only in UX design and code; but also in editorial direction and tone.
 

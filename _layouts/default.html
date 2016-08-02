@@ -64,7 +64,7 @@
 				bodyTag = document.getElementsByTagName("body");
 
 			window.onload = function() {
-				if (document.getElementsByClassName('twitter-tweet')) {
+				if (document.getElementsByClassName('twitter-tweet').length) {
 					scriptTag.src = "//platform.twitter.com/widgets.js";
 					document.getElementsByTagName("body")[0].appendChild(scriptTag);
 				}

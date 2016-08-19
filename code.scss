@@ -1,3 +1,7 @@
+---
+permalink: 'assets/code.css'
+---
+
 .highlight {
   code { background-color: #111; border: 2px solid }
 
@@ -33,9 +37,8 @@
   .ge { font-style: italic }
   .gs, .gh, .gp, .cs, .gu, .ne { font-weight: bold }
 
-
   .o { color: #3399cc }
-  .go { color: #808080 }
+  .go, .lineno { color: #808080 }
   .gu { color: #800080 }
   .gt { color: #0040D0 }
   .ne { color: #666699 }

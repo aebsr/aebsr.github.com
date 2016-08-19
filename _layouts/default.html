@@ -66,15 +66,25 @@
 		<script type="text/javascript">
 			var
 				scriptTag = document.createElement("script"),
+				linkTag = document.createElement("link"),
 				bodyTag = document.getElementsByTagName("body");
 
 			window.onload = function() {
 				analytics = scriptTag.cloneNode(true);
 				analytics.src = "https://www.google-analytics.com/analytics.js";
 				document.getElementsByTagName("body")[0].appendChild(analytics);
+
+				linkTag.rel = "stylesheet";
+				linkTag.type = "text/css";
+
 				if (document.getElementsByClassName('twitter-tweet').length) {
 					scriptTag.src = "//platform.twitter.com/widgets.js";
 					document.getElementsByTagName("body")[0].appendChild(scriptTag);
+				}
+				if (document.getElementsByClassName('highlight').length) {
+					codeCSS = linkTag.cloneNode(true);
+					codeCSS.href = "/assets/code.css";
+					document.getElementsByTagName("body")[0].appendChild(codeCSS);
 				}
 			}
 

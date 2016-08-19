@@ -25,6 +25,14 @@
 
 		<link rel="icon" href="/favicon.ico">
 
+		<link href="https://twitter.com/aebsr" rel="me">
+		<link href="https://instagram.com/aebsr/" rel="me">
+		<link href="https://open.spotify.com/user/125608571" rel="me">
+		<link href="https://www.facebook.com/aebsr" rel="me">
+		<link href="http://codepen.io/aebsr/" rel="me">
+		<link href="https://github.com/aebsr" rel="me">
+		<link href="https://angel.co/aebsr" rel="me">
+
 		<style type="text/css">
 			{% capture include_to_scssify %}
 				{% include style.scss %}
@@ -45,9 +53,6 @@
 				<li>
 					<a href="/notebook">notebook</a>
 				</li>
-				<!--li>
-					<a href="#work">work</a>
-				</li-->
 				<li>
 					<a href="/about">about</a>
 				</li>
@@ -64,11 +69,18 @@
 				bodyTag = document.getElementsByTagName("body");
 
 			window.onload = function() {
+				analytics = scriptTag.cloneNode(true);
+				analytics.src = "https://www.google-analytics.com/analytics.js";
+				document.getElementsByTagName("body")[0].appendChild(analytics);
 				if (document.getElementsByClassName('twitter-tweet').length) {
 					scriptTag.src = "//platform.twitter.com/widgets.js";
 					document.getElementsByTagName("body")[0].appendChild(scriptTag);
 				}
 			}
+
+	    var _gaq = _gaq || [];
+	    _gaq.push(['_setAccount', 'UA-34982219-1']);
+	    _gaq.push(['_trackPageview']);
 		</script>
 
 	</body>

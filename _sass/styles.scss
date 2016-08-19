@@ -431,7 +431,7 @@ main {
     margin-top: 10rem;
   }
 
-  > section {
+  > [id] {
     padding: 2rem;
     width: 93.75vw;
     max-width: 60rem;
@@ -449,7 +449,7 @@ main {
   }
 
   @media (min-width: 37.5rem) {
-    > section {
+    > [id] {
       padding: 3rem;
     }
 

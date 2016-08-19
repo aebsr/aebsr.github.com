@@ -10,11 +10,11 @@ layout: default
 
 <main>
 
-  <section id="notebook">
+  <div id="notebook">
     <h2 class="section-title">notebook</h2>
     {% for post in site.posts limit:3 %}
-    <div class="notebook">
-      <div class="notebook-title">
+    <section class="notebook">
+      <header class="notebook-title">
         <h3>
           <a href="{{ site.url }}{{ post.url }}">
             {{ post.title }}
@@ -24,12 +24,12 @@ layout: default
           Published<br>
           {{ post.date | date_to_string }}
         </small>
-      </div>
+      </header>
       <div class="notebook-excerpt">
         <p>{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</p>
       </div>
-    </div>
+    </section>
     {% endfor %}
-  </section>
+  </div>
 
 </main>

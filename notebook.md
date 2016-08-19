@@ -11,11 +11,11 @@ permalink: notebook/
 
 <main class="category">
 
-  <section id="notebook">
+  <div id="notebook">
     <h1 class="section-title">notebook</h1>
     {% for post in site.posts %}
-    <div class="notebook">
-      <div class="notebook-title">
+    <section class="notebook">
+      <header class="notebook-title">
         <h2>
           <a href="{{ site.url }}{{ post.url }}">
             {{ post.title }}
@@ -25,12 +25,12 @@ permalink: notebook/
           Published<br>
           {{ post.date | date_to_string }}
         </small>
-      </div>
+      </header>
       <div class="notebook-excerpt">
         <p>{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</p>
       </div>
-    </div>
+    </section>
     {% endfor %}
-  </section>
+  </div>
 
 </main>

@@ -22,8 +22,6 @@ Follow me on [Twitter](http://twitter.com/aebsr) or [Spotify](https://open.spoti
 
 ## Elsewhere
 
-A collection of things I've written or were written about me.
-
 - [Smashing Newsletter](http://www.smashingmagazine.com/smashing-newsletter-issue-118/#a6)
   The Forgotten Vertical Media Queries
 - [Net Magazine](http://www.creativebloq.com/netmag/issue-258-81412615)

@@ -75,6 +75,10 @@
 				linkTag.rel = "stylesheet";
 				linkTag.type = "text/css";
 
+				var _gaq = _gaq || [];
+		    _gaq.push(['_setAccount', 'UA-34982219-1']);
+		    _gaq.push(['_trackPageview']);
+
 				if (document.getElementsByClassName('twitter-tweet').length) {
 					scriptTag.src = "//platform.twitter.com/widgets.js";
 					document.getElementsByTagName("body")[0].appendChild(scriptTag);
@@ -85,10 +89,6 @@
 					document.getElementsByTagName("body")[0].appendChild(codeCSS);
 				}
 			}
-
-	    var _gaq = _gaq || [];
-	    _gaq.push(['_setAccount', 'UA-34982219-1']);
-	    _gaq.push(['_trackPageview']);
 		</script>
 
 	</body>

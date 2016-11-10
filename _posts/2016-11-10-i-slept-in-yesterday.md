@@ -71,7 +71,7 @@ It won't be easy, and that's OK.
 
 ### Wife,
 
-Months ago, we sat on our balcony in the middle of the Bahamas reflecting on how far we've come. The hard work and sacrifice of our mother's validated in every move we make. We're use to worker harder and longer and paying the preverbal black tax. We don't complain. We don't wallow. We perceiver. As the words inked on my forearms read, we are "Butler Strong" and can weather any storm fortune sends our way.
+Months ago, we sat on our balcony in the middle of the Bahamas reflecting on how far we've come. The hard work and sacrifice of our mother's validated in every move we make. We're use to working harder and longer and paying the preverbal black tax. We don't complain. We don't wallow. We perceiver. As the words inked on my forearms read, we are "Butler Strong" and can weather any storm fortune sends our way.
 
 _Now let me keep it 💯._
 

@@ -34,7 +34,7 @@ By now my son is home and doing homework, bursts into sudden tears.
 
 I tell him, in many more words than this:
 
-"Your grandmother raised me on her own in Regan Era Washington, DC. YOU, are going to be [alright](https://www.youtube.com/watch?v=Z-48u_uWMHY)."
+"Your grandmother raised me on her own in Reagan Era Washington, DC. YOU, are going to be [alright](https://www.youtube.com/watch?v=Z-48u_uWMHY)."
 
 ## I've Got Work To Do
 

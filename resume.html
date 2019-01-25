@@ -1,0 +1,323 @@
+<html>
+  <head>
+    <style>
+      :root {
+        font: 500 15px/1.8 "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+        font-variant: normal;
+        font-style: normal;
+        color: #222;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 60px;
+        background: #efefef;
+      }
+      .page {
+        min-height: calc(100vh - 120px);
+        background: #fff url(/assets/images/texture.png) top right no-repeat;
+        border: 1px solid #eee;
+        padding: 50px;
+        display: grid;
+        grid-template-columns: calc(60% - 25px) calc(40% - 25px);
+        grid-column-gap: 50px;
+        grid-row-gap: 50px;
+        grid-auto-rows: min-content;
+        box-shadow: -3px 3px 5px -2px #ddd
+      }
+
+      h1, h2, h3, h4, h5, h6 {
+        margin: 0;
+      }
+
+      h1, h3, h5 {
+        color: #333;
+        text-transform: uppercase;
+      }
+
+      h1 {
+        font: 700 33px/1.1 Helvetica, Arial, sans-serif;
+      }
+
+      h3 {
+        font: 400 25px/1 Helvetica, Arial, sans-serif;
+        padding-bottom: 0.5em;
+        border-bottom: 3px solid #efefef;
+        margin-bottom: 1em;
+      }
+
+      h2, h4, h6 {
+        color: #09a6f3;
+        font: 700 19px/1 "Helvetica Neue", Helvetica, Arial, sans-serif;
+      }
+
+      h4, h5, h6 {
+        text-transform: none;
+        margin-bottom: 0.5em;
+      }
+
+      h5, h6 {
+        font: 700 17px/1 Helvetica, Arial, sans-serif;
+        color: #777;
+      }
+
+      header {
+        grid-column: 1/3;
+      }
+
+      section:not(:last-of-type):after {
+        content: '';
+        display: block;
+        background-color: transparent;
+        background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23dddddd' fill-opacity='0.4'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+        height: 20px;
+        margin: 2em 0;
+      }
+
+      ul {
+        padding-left: 0;
+      }
+
+      main li {
+        list-style-type: none;
+      }
+
+      aside li {
+        list-style: none;
+      }
+
+      [class*="confidence"] {
+        background: #fff url(/assets/images/texture.png) top right no-repeat;
+      }
+
+      .confidence__high {
+        color: #111;
+      }
+
+      .confidence__med {
+        color: #666;
+      }
+
+      .confidence__low {
+        color: #999
+      }
+
+      [class*="experience"] {
+        min-width: fit-content;
+        margin-bottom: 3px;
+        border-radius: 3px;
+        padding: 3px 5px;
+        font-weight: 700;
+        font-family: arial;
+        position: relative;
+      }
+
+      [class*="experience"]:after {
+        left: calc(100% + 5px);
+        white-space: nowrap;
+        color: #bbb;
+        font-weight: 100;
+        position: absolute;
+      }
+
+      .experience__1 { width: 20%; }
+      .experience__1:after {
+        content: '3y+'
+      }
+      .experience__2 { width: 40%; }
+      .experience__2:after {
+        content: '7y+'
+      }
+      .experience__3 { width: 60%; }
+      .experience__3:after {
+        content: '10y+'
+      }
+      .experience__4 { width: 80%; }
+      .experience__4:after {
+        content: '14y+'
+      }
+      .experience__5 {width: 100%; }
+      .star {
+        margin: 5px 0;
+        position: absolute;
+        display: block;
+        color: #F3D409;
+        width: 0px;
+        height: 0px;
+        border-right: 10px solid transparent;
+        border-bottom: 7px solid #F3D409;
+        border-left: 10px solid transparent;
+        transform: rotate(35deg);
+        top: 3px;
+        right: 3px;
+        z-index: 1;
+      }
+      .star:before {
+        border-bottom: 8px solid #F3D409;
+        border-left: 3px solid transparent;
+        border-right: 3px solid transparent;
+        position: absolute;
+        height: 0;
+        width: 0;
+        top: -4.5px;
+        left: -6.5px;
+        display: block;
+        content: '';
+        transform: rotate(-35deg);
+      }
+      .star:after {
+        position: absolute;
+        display: block;
+        color: #F3D409;
+        top: .3px;
+        left: -10.5px;
+        width: 0px;
+        height: 0px;
+        border-right: 10px solid transparent;
+        border-bottom: 7px solid #F3D409;
+        border-left: 10px solid transparent;
+        transform: rotate(-70deg);
+        content: '';
+      }
+      aside a {
+        color: #111;
+        font-weight: 700;
+        background: #F3D409;
+        text-decoration: none;
+        padding: 3px;
+        border-radius: 3px;
+        transition: all 0.3s;
+      }
+      aside a:hover {
+        background-color: #09a6f3;
+      }
+      main a {
+        color: #09a6f3;
+        text-decoration: underline;
+      }
+      main a:hover {
+        font-weight: bold;
+      }
+
+      @media print {
+        body {margin: 0}
+        .page {
+          border: none;
+          padding: 0;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page">
+
+      <header>
+        <h1>Antoine Butler</h1>
+        <h2>User Interface Engineer</h2>
+      </header>
+      <main>
+        <h3>Experience</h3>
+
+        <section>
+          <h4>TravelBank</h4>
+          <h5>Senior UI Engineer / 2015 - Current</h5>
+
+          <ul>
+            <li>Lead development and management of hybrid native/<a href="https://app.travelbank.com/">web application</a>.</li>
+            <li>Complex, rapid UI development and quality assurance.</li>
+          </ul>
+        </section>
+
+        <section>
+            <h4>Independant</h4>
+            <h5>Rogue Creative / 2002 - Current</h5>
+
+            <ul>
+              <li>Freelance and Contract web design and development since 2002.</li>
+              <li>Working with agencies such as <a href="http://nclud.com/">nclud</a>, <a href="http://eightshapes.com/">EightShapes</a>, <a href="https://www.hugeinc.com/">Huge</a>, and <a href="https://newwaydesign.com/">New Way Design</a>.</li>
+              <li>Notable clients include <a href="https://paysimple.com">PaySimple</a>, <a href="https://www.laureate.net/">Laureate Internaitonal Universities</a>, TravelShark, and Personal Inc.</li>
+            </ul>
+          </section>
+
+        <section>
+          <h4>HZDG</h4>
+          <h5>Senior Front End Developer / 2011 - 2015</h5>
+
+          <ul>
+            <li>Lead front end development efforts and mentored junior developers.</li>
+            <li>Notable projects include: <a href="https://www.hzdg.com/clients/nvr">NV Homes<a/>, <a href="http://momvoyage.hilton.com/">Hilton Mom Voyage</a>, and Redskins 80th Anniversary.</li>
+          </ul>
+        </section>
+
+        <section>
+          <h4>Probonafide</h4>
+          <h5>Consultant & Developer / 2010 - 2012 <small>(Volunteer)</small></h5>
+
+          Lead front end and WordPress development efforts for not for profit organizations.
+        </section>
+
+        <section>
+          <h4>AKQA</h4>
+          <h5>Contract Web Developer / 2010</h5>
+
+          Participated in the front end development of a large scale redesign for <a href="https://www.usps.com/">USPS</a>.
+        </section>
+
+        <section>
+          <h4>Market Hardware</h4>
+          <h5>Consultant & Developer / 2008 - 2009</h5>
+
+          Developed and defined coding standards for the development team and participate in rapid development of small business websites using a custom Content Management System.
+        </section>
+
+        <section>
+          <h4>INDUS Corp</h4>
+          <h5>Web Team Project Manager / 2007 - 2008</h5>
+
+          Lead a large team of developers and designers int satisfying the online needs of 14 separate offices of the Federal Highway Administration. Including Section 508 and WCAG requirements.
+        </section>
+
+        <section>
+          <h4>The Performance Institute</h4>
+          <h5>Development Director / 2006 - 2007</h5>
+
+          <ul>
+            <li>Design and develop marquee sites, email campaigns and online advertisements.</li>
+            <li>Managed all aspects of the organization's web presence and mentored 2 junior designer/developers.</li>
+          </ul>
+        </section>
+      </main>
+      <aside>
+        <section>
+            <h3>Summary</h3>
+            <p>Speedy, pixel conscious, accessible and responsive, code creator. Your friendly neighborhood dapper developer.</p>
+            <p>I’m a dad, husband and crossfitter who enjoys motorcycles, philosophy and music.</p>
+            <p><a href="mailto:antoinebsr@gmail.com">antoine at gmail dot com</a></p>
+        </section>
+        <section>
+          <h3>Skills</h3>
+          <ul>
+            <li class="confidence__high experience__5">HTML/5 <span class="star"></span></li>
+            <li class="confidence__high experience__5">CSS 3 <span class="star"></span></li>
+            <li class="confidence__high experience__5">PhotoShop <span class="star"></span></li>
+            <li class="confidence__high experience__4">SASS / LESS <span class="star"></span></li>
+            <li class="confidence__high experience__4">Accessibility <span class="star"></span></li>
+            <li class="confidence__med experience__4">JS</li>
+            <li class="confidence__med experience__3">git</li>
+            <li class="confidence__med experience__3">PHP / WordPress</li>
+            <li class="confidence__med experience__1">Sketch</li>
+            <li class="confidence__low experience__1">React</li>
+            <li class="confidence__low experience__1">Ember</li>
+          </ul>
+        </section>
+        <section>
+          <h3>Highlights</h3>
+          <p>I've spoke at <a href="https://2014.cssconf.com/">CSSConf</a> and was even published <a href="http://www.creativebloq.com/netmag/issue-258-81412615">once</a> or <a href="http://www.smashingmagazine.com/smashing-newsletter-issue-118/#a6">twice</a>. Though this is probably my favorite <a href="http://www.slideshare.net/cameronmoll/good-vs-great-design">shot out.</a></p>
+          <p>In 2012, a web app I built for Volkswagon through HZDG was declared a Merit Winner by the Art Directors Club of Metropolitain Washington.</p>
+          <p>I don't get to participate in much Open Source or public experimentation these days, but my<a href="https://codepen.io/aebsr/details/FDLJl">Apple Calendar Experiment</a> was a well received endeavor.</p>
+        </section>
+      </aside>
+    </div>
+  </body>
+</html>

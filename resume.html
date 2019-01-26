@@ -1,5 +1,12 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
+    <meta charset="utf-8">
+    <title>Antoine Butler / Interface Engineer</title>
+    <meta name="description" content="Antoine Butler's Resume">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex">
+
     <style>
       :root {
         font: 500 15px/1.8 "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
@@ -37,11 +44,11 @@
       }
 
       h1 {
-        font: 700 33px/1.1 Helvetica, Arial, sans-serif;
+        font: 700 2.2rem/1.1 Helvetica, Arial, sans-serif;
       }
 
       h3 {
-        font: 400 25px/1 Helvetica, Arial, sans-serif;
+        font: 400 1.7rem/1 Helvetica, Arial, sans-serif;
         padding-bottom: 0.5em;
         border-bottom: 3px solid #efefef;
         margin-bottom: 1em;
@@ -49,7 +56,7 @@
 
       h2, h4, h6 {
         color: #09a6f3;
-        font: 700 19px/1 "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font: 700 1.3rem/1 "Helvetica Neue", Helvetica, Arial, sans-serif;
       }
 
       h4, h5, h6 {
@@ -58,7 +65,7 @@
       }
 
       h5, h6 {
-        font: 700 17px/1 Helvetica, Arial, sans-serif;
+        font: 700 1.2rem/1 Helvetica, Arial, sans-serif;
         color: #777;
       }
 
@@ -198,6 +205,30 @@
       }
       main a:hover {
         font-weight: bold;
+      }
+
+      @media (max-width: 68rem) {
+        body {
+          margin: 30px;
+        }
+      }
+
+      @media (max-width: 51rem) {
+        :root {font-size: 13px}
+        body {
+          margin: 0;
+        }
+        header,
+        main {
+          padding-bottom: 50px;
+        }
+        .page {
+          padding: 30px;
+          display: block;
+          border: none;
+          box-shadow: none;
+          background-attachment: fixed;
+        }
       }
 
       @media print {

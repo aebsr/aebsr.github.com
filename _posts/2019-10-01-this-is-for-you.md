@@ -5,7 +5,7 @@ tags: [social media, philosophy]
 excerpt: "More of the same. Ego. Vanity. Social media. But, that might be ok."
 ---
 
-I hope that title reads off as pretentious as it felt to write. Back from an epic work trip to Las Vegas a coworker asked why I don't write here anymore. The last time being 21 months ago.
+I hope that title reads as pretentious as it felt to write. Back from an epic work trip to Las Vegas a coworker asked why I don't write here anymore. The last time being 21 months ago.
 
 I mumbled through the many reasons but the ultimate real answer was, to check my ego. Even my best efforts can't thwart a little indulgence in digital vanity. Some of it is unapologetic. Personal records in the gym, delicious meal preparations, and highlights from my kids. But outside of that, anything else I thought to share seemed gratuitous. So, I stopped.
 
